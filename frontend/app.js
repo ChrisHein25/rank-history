@@ -157,8 +157,6 @@ class AppState {
     this.week = null; // stores week_pk now
     this.teams = new Set();
     this.maxTeams = 5;
-
-    this.alltimeSort = { column: 'total_weeks_ranked', dir: 'desc' };
   }
 }
 
@@ -209,33 +207,6 @@ class App {
   initEvents() {
 
     this.alltimeCount.addEventListener('change', () => this.renderAlltime());
-    // Alltime table sorting
-    this.alltimeTable.querySelectorAll('th').forEach((th, i) => {
-      const colMap = {
-        1: 'team_name',
-        2: 'total_weeks_ranked',
-        3: 'weeks_at_number_one',
-        4: 'weeks_in_top_3',
-        5: 'weeks_in_top_10'
-      };
-      const col = colMap[i];
-      if (!col) return;
-
-      th.classList.add('sortable'); // mark as clickable
-
-      th.addEventListener('click', () => {
-        if (this.state.alltimeSort.column === col) {
-          // toggle direction
-          this.state.alltimeSort.dir = this.state.alltimeSort.dir === 'asc' ? 'desc' : 'asc';
-        } else {
-          this.state.alltimeSort.column = col;
-          this.state.alltimeSort.dir = 'desc';
-        }
-        this.renderAlltime();
-        this.updateAlltimeHeaders();
-      });
-    });
-
 
 
     // Poll selector
@@ -325,23 +296,7 @@ class App {
       if (!poll) return;
 
       const limit = Number(this.alltimeCount.value) || 20;
-      let rows = this.store.getAlltimeStats(poll);
-
-      // apply sorting
-      const { column, dir } = this.state.alltimeSort;
-      rows = rows.sort((a, b) => {
-        if (typeof a[column] === 'string') {
-          return dir === 'asc'
-            ? a[column].localeCompare(b[column])
-            : b[column].localeCompare(a[column]);
-        } else {
-          return dir === 'asc'
-            ? a[column] - b[column]
-            : b[column] - a[column];
-        }
-      });
-
-      rows = rows.slice(0, limit);
+      const rows = this.store.getAlltimeStats(poll).slice(0, limit);
 
       if (!rows.length) {
         this.alltimeTable.style.display = 'none';
@@ -361,27 +316,6 @@ class App {
           <td>${r.weeks_in_top_10}</td>
         </tr>
       `).join('');
-
-      this.updateAlltimeHeaders();
-
-    }
-
-    updateAlltimeHeaders() {
-      const headers = this.alltimeTable.querySelectorAll('th');
-      headers.forEach((th, i) => {
-        th.classList.remove('sorted-asc', 'sorted-desc');
-        const colMap = {
-          1: 'team_name',
-          2: 'total_weeks_ranked',
-          3: 'weeks_at_number_one',
-          4: 'weeks_in_top_3',
-          5: 'weeks_in_top_10'
-        };
-        const col = colMap[i];
-        if (col === this.state.alltimeSort.column) {
-          th.classList.add(this.state.alltimeSort.dir === 'asc' ? 'sorted-asc' : 'sorted-desc');
-        }
-      });
     }
 
 
@@ -552,7 +486,6 @@ class App {
       this.populateTeamChoices(); // will respect .state.teams
       this.initEvents();
       this.renderAll();
-      this.updateAlltimeHeaders();
     }
 }
 

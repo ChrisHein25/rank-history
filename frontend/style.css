@@ -27,27 +27,3 @@ th {
 tr:nth-child(even) {
   background-color: #fafafa;
 }
-
-th.sortable {
-  cursor: pointer;
-  position: relative;
-  user-select: none;
-}
-
-th.sorted-asc::after,
-th.sorted-desc::after {
-  position: absolute;
-  right: 6px;
-  top: 50%;
-  transform: translateY(-50%);
-  border: 5px solid transparent;
-  content: '';
-}
-
-th.sorted-asc::after {
-  border-bottom-color: #333; /* ▲ arrow up */
-}
-
-th.sorted-desc::after {
-  border-top-color: #333; /* ▼ arrow down */
-}
