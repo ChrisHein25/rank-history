@@ -153,13 +153,23 @@ class Database:
 # ---------------- Backfiller ----------------
 
 def get_corrected_team_data(team_name, abbreviation, school_name) -> (str, str):
-    # special cases
-    # TODO add special cases for miami vs. miami oh, south car vs. usc, etc
-    raise NotImplementedError("See todo above this line!")
 
     ret = TEAM_ABBREVIATION_MAP.get(abbreviation, None)
+
+    # check for special cases
+    if "MIA" in abbreviation:
+        if "Hurricanes" in school_name:
+            ret = {"abbrev": "MIA",  "name": "Miami (FL)"}
+        else:
+            ret = None
+    elif "USC" in abbreviation:
+        if "Trojan" in school_name:
+            ret = {"abbrev": "USC",  "name": "USC"}
+        else:
+            ret = None
+
     if ret is None:
-        raise ValueError(f"No team code mapping found for {abbreviation}. Please add to mappings.py")
+        raise ValueError(f"No team code mapping found for {abbreviation}, {team_name}, {school_name}. Please add to mappings.py")
     return ret['name'], ret['abbrev']
 
 
@@ -242,12 +252,22 @@ class Backfiller:
         team_name = team_json.get("nickname") or team_json.get("shortDisplayName") or school_name
         abbreviation = team_json.get("abbreviation") or school_name[:4].upper()
 
+        # special cases of multiple 'school' names
+        if abbreviation == "SJSU":
+            abbreviation_corr = abbreviation
+            team_name_corr = "San Jose State"  # no é
+            school_name = "San Jose State Spartans"
+        elif abbreviation == "USM":
+            abbreviation_corr = abbreviation
+            team_name_corr = "Southern Mississippi"
+            school_name = "Southern Mississippi Golden Eagles"
+        else:
+            try:
+                team_name_corr, abbreviation_corr = get_corrected_team_data(team_name, abbreviation, school_name)
+            except Exception as e:
+                print(f"Failed on team abbreviation: {team_name, school_name, abbreviation}")
+                raise e
         school_pk = self.db.get_or_create("school", {"school_name": school_name})
-        try:
-            team_name_corr, abbreviation_corr = get_corrected_team_data(team_name, abbreviation, school_name)
-        except Exception as e:
-            print(f"Failed on team abbreviation: {team_name, school_name, abbreviation}")
-            raise e
         team_pk = self.db.get_or_create(
             "team",
             {"team_name": team_name_corr,

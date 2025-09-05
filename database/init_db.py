@@ -33,7 +33,7 @@ def init_db(drop=True):
 if __name__ == "__main__":
 
     ######
-    YEAR_START = 2004
+    YEAR_START = 2004  # ESPN data is only valid 2004 onward
     YEAR_END = 2024
     POLL_IDS = [1, 2]
     ######

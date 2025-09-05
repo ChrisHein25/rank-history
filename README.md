@@ -25,8 +25,6 @@ This project builds a **SQLite database** of college football poll rankings (AP,
    ORDER BY week_number, ranking_current_rank;
    ```
 
-3. Visualize rankings (optional):
-   Use `plot_rankings.py` in `src/` or similar script to generate team progression charts.
 
 ### Notes
 
