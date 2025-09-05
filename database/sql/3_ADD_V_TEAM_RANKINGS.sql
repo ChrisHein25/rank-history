@@ -1,4 +1,6 @@
 -- Create a holistic view of rankings across all metadata
+DROP VIEW IF EXISTS v_team_rankings;
+
 CREATE VIEW v_team_rankings AS
 SELECT
     r.ranking_pk,
