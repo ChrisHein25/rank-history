@@ -67,17 +67,20 @@ class DataStore {
     this.rankings = [];
     this.overrated = [];
     this.overratedStats = [];
+    this.alltime = [];
   }
 
   async load() {
-    const [rankings, overrated, overratedStats] = await Promise.all([
+    const [rankings, overrated, overratedStats, alltime] = await Promise.all([
       fetchJSONSafe('./data/rankings.json'),
       fetchJSONSafe('./data/overrated.json'),
       fetchJSONSafe('./data/overrated_stats.json'),
+      fetchJSONSafe('./data/alltime_summary.json'),
     ]);
     this.rankings = rankings;
     this.overrated = overrated;
     this.overratedStats = overratedStats;
+    this.alltime = alltime;
   }
 
   getPolls() {
@@ -85,6 +88,12 @@ class DataStore {
     const fromOver = this.overrated.map(r => r.poll_name);
     return uniqueSorted([...fromRankings, ...fromOver]);
   }
+
+  getAlltimeStats(poll) {
+      return this.alltime
+        .filter(r => r.poll_name === poll)
+        .sort((a, b) => b.total_weeks_ranked - a.total_weeks_ranked);
+    }
 
   getYears(poll) {
     return uniqueSorted(
@@ -148,6 +157,8 @@ class AppState {
     this.week = null; // stores week_pk now
     this.teams = new Set();
     this.maxTeams = 5;
+
+    this.alltimeSort = { column: 'total_weeks_ranked', dir: 'desc' };
   }
 }
 
@@ -159,6 +170,11 @@ class App {
 
     // color manager
     this.colorManager = new ColorManager();
+
+    this.alltimeCount = document.getElementById('alltimeCount');
+    this.alltimeTable = document.getElementById('alltimeTable');
+    this.alltimeTbody = this.alltimeTable.querySelector('tbody');
+    this.alltimeEmpty = document.getElementById('alltimeEmpty');
 
 
     // DOM
@@ -191,6 +207,37 @@ class App {
   }
 
   initEvents() {
+
+    this.alltimeCount.addEventListener('change', () => this.renderAlltime());
+    // Alltime table sorting
+    this.alltimeTable.querySelectorAll('th').forEach((th, i) => {
+      const colMap = {
+        1: 'team_name',
+        2: 'total_weeks_ranked',
+        3: 'weeks_at_number_one',
+        4: 'weeks_in_top_3',
+        5: 'weeks_in_top_10'
+      };
+      const col = colMap[i];
+      if (!col) return;
+
+      th.classList.add('sortable'); // mark as clickable
+
+      th.addEventListener('click', () => {
+        if (this.state.alltimeSort.column === col) {
+          // toggle direction
+          this.state.alltimeSort.dir = this.state.alltimeSort.dir === 'asc' ? 'desc' : 'asc';
+        } else {
+          this.state.alltimeSort.column = col;
+          this.state.alltimeSort.dir = 'desc';
+        }
+        this.renderAlltime();
+        this.updateAlltimeHeaders();
+      });
+    });
+
+
+
     // Poll selector
     this.pollFilter.addEventListener('change', () => {
       this.state.poll = this.pollFilter.value;
@@ -273,6 +320,71 @@ class App {
 }
 
   // ----- Renders -----
+  renderAlltime() {
+      const { poll } = this.state;
+      if (!poll) return;
+
+      const limit = Number(this.alltimeCount.value) || 20;
+      let rows = this.store.getAlltimeStats(poll);
+
+      // apply sorting
+      const { column, dir } = this.state.alltimeSort;
+      rows = rows.sort((a, b) => {
+        if (typeof a[column] === 'string') {
+          return dir === 'asc'
+            ? a[column].localeCompare(b[column])
+            : b[column].localeCompare(a[column]);
+        } else {
+          return dir === 'asc'
+            ? a[column] - b[column]
+            : b[column] - a[column];
+        }
+      });
+
+      rows = rows.slice(0, limit);
+
+      if (!rows.length) {
+        this.alltimeTable.style.display = 'none';
+        this.alltimeEmpty.style.display = '';
+        return;
+      }
+
+      this.alltimeEmpty.style.display = 'none';
+      this.alltimeTable.style.display = '';
+      this.alltimeTbody.innerHTML = rows.map((r, i) => `
+        <tr>
+          <td>${i + 1}</td>
+          <td>${r.team_name}</td>
+          <td>${r.total_weeks_ranked}</td>
+          <td>${r.weeks_at_number_one}</td>
+          <td>${r.weeks_in_top_3}</td>
+          <td>${r.weeks_in_top_10}</td>
+        </tr>
+      `).join('');
+
+      this.updateAlltimeHeaders();
+
+    }
+
+    updateAlltimeHeaders() {
+      const headers = this.alltimeTable.querySelectorAll('th');
+      headers.forEach((th, i) => {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+        const colMap = {
+          1: 'team_name',
+          2: 'total_weeks_ranked',
+          3: 'weeks_at_number_one',
+          4: 'weeks_in_top_3',
+          5: 'weeks_in_top_10'
+        };
+        const col = colMap[i];
+        if (col === this.state.alltimeSort.column) {
+          th.classList.add(this.state.alltimeSort.dir === 'asc' ? 'sorted-asc' : 'sorted-desc');
+        }
+      });
+    }
+
+
   renderTopOverrated() {
     const { poll } = this.state;
     if (!poll) return;
@@ -422,10 +534,11 @@ class App {
   }
 
   renderAll() {
-    this.renderRankings();
-    this.renderOverrated();
-    this.renderTopOverrated();
-  }
+      this.renderRankings();
+      this.renderOverrated();
+      this.renderTopOverrated();
+      this.renderAlltime();
+    }
 
   async boot() {
       await this.store.load();
@@ -439,6 +552,7 @@ class App {
       this.populateTeamChoices(); // will respect .state.teams
       this.initEvents();
       this.renderAll();
+      this.updateAlltimeHeaders();
     }
 }
 

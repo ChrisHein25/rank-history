@@ -42,6 +42,34 @@
     </div>
   </div>
 
+  <!-- All Time Summary -->
+  <section class="card">
+    <h2>All-Time Summary</h2>
+
+    <label for="alltimeCount">Show Top:</label>
+    <select id="alltimeCount">
+      <option value="10" selected>10</option>
+      <option value="20">20</option>
+      <option value="50">50</option>
+    </select>
+
+    <table id="alltimeTable" class="data-table">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th class="sortable">Team</th>
+          <th class="sortable">Total Weeks Ranked</th>
+          <th class="sortable">#1 Weeks</th>
+          <th class="sortable">Top 3 Weeks</th>
+          <th class="sortable">Top 10 Weeks</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="alltimeEmpty" class="muted">(no data)</div>
+  </section>
+
+
   <!-- Overrated Index Explorer -->
   <section id="overrated-explorer">
     <h2>Overrated Index</h2>
