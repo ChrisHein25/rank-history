@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>College Rankings Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* Minimal defaults (keep or move to style.css) */
+    body { font-family: system-ui, Arial, sans-serif; margin: 20px; }
+    h1 { margin-bottom: 12px; }
+    section { margin: 28px 0; }
+    .row { display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; background: #fff; }
+    label { font-weight: 600; margin-right: 8px; }
+    select, button { padding: 6px 8px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #e6e6e6; padding: 6px 8px; text-align: center; }
+    th { background: #f7f7f7; }
+    .muted { color: #666; font-size: 0.9em; }
+    .sidebar { min-width: 260px; max-width: 320px; }
+    .flex-1 { flex: 1 1 480px; }
+    .controls { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+    .multi { min-width: 260px; height: 120px; }
+    .note { font-size: 12px; color: #555; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <h1>College Rankings Explorer</h1>
+
+  <!-- Global Poll Filter -->
+  <div class="card">
+    <div class="controls">
+      <label for="pollFilter">Poll:</label>
+      <select id="pollFilter"></select>
+      <span id="pollInfo" class="muted"></span>
+    </div>
+  </div>
+
+  <!-- Season Ranking Visualizer -->
+  <section id="season-visualizer" class="card">
+    <h2>Season Ranking Visualizer</h2>
+    <div class="controls">
+      <label for="yearSelect">Year:</label>
+      <select id="yearSelect"></select>
+
+      <label for="weekSelect">Week:</label>
+      <select id="weekSelect"></select>
+
+      <span id="seasonInfo" class="muted"></span>
+    </div>
+
+    <div id="rankingsEmpty" class="muted" style="display:none;">No rankings found for this selection.</div>
+    <table id="rankingsTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Team</th>
+          <th>Points</th>
+          <th>1st Place Votes</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <!-- Overrated Index Explorer -->
+  <section id="overrated-explorer">
+    <h2>Overrated Index Explorer</h2>
+    <div class="row">
+      <div class="card sidebar">
+        <div class="controls">
+          <label for="teamSelect">Teams (max 5):</label>
+          <select id="teamSelect" multiple class="multi"></select>
+        </div>
+        <div class="note">Tip: Hold Ctrl/⌘ to select multiple.</div>
+
+        <h3 style="margin-top:14px;">Team Averages</h3>
+        <div id="overratedStatsEmpty" class="muted" style="display:none;">Select teams to see their averages.</div>
+        <table id="overratedStatsTable" style="display:none;">
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Avg Overrated</th>
+              <th>Seasons</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="card flex-1">
+        <canvas id="overratedChart" height="280"></canvas>
+        <div id="overratedEmpty" class="muted" style="display:none;">No series to plot. Select up to 5 teams.</div>
+      </div>
+    </div>
+  </section>
+
+ <section class="card">
+  <h2>Top Teams by Rating</h2>
+  <label for="topMode">Mode:</label>
+  <select id="topMode">
+    <option value="overrated" selected>Overrated</option>
+    <option value="underrated">Underrated</option>
+  </select>
+
+  <label for="topOverratedCount">Show Top:</label>
+  <select id="topOverratedCount">
+    <option value="10">10</option>
+    <option value="20" selected>20</option>
+    <option value="30">30</option>
+  </select>
+
+  <table id="topOverratedTable" class="data-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Team</th>
+        <th>Avg Overrated Index</th>
+        <th>Seasons Counted</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div id="topOverratedEmpty">(no data)</div>
+</section>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
