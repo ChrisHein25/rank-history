@@ -152,138 +152,15 @@ class Database:
 
 # ---------------- Backfiller ----------------
 
-def get_corrected_team_data(abbreviation) -> (str, str):
+def get_corrected_team_data(team_name, abbreviation, school_name) -> (str, str):
+    # special cases
+    # TODO add special cases for miami vs. miami oh, south car vs. usc, etc
+    raise NotImplementedError("See todo above this line!")
+
     ret = TEAM_ABBREVIATION_MAP.get(abbreviation, None)
     if ret is None:
         raise ValueError(f"No team code mapping found for {abbreviation}. Please add to mappings.py")
     return ret['name'], ret['abbrev']
-
-
-class BackfillerOld:
-    def __init__(self, db: Database, client: ESPNClient):
-        self.db = db
-        self.client = client
-
-    def backfill_poll(self, year: int, poll_id: int):
-        logging.info(f"Backfilling poll id {poll_id} for {year}")
-        weeks = self.client.get_weeks(year, poll_id)
-        if not weeks:
-            logging.warning(f"No weeks found for poll id {poll_id} {year}")
-            return
-
-        for w in weeks:
-            poll_data = self.client.get_poll_data(w["url"])
-            headline = poll_data.get("headline", f"Week {w['week']}")
-            logging.info(f"Processing {headline}")
-
-            for entry in poll_data.get("ranks", []):
-                print(f'  Inserting record for the team ranked {entry["current"]}')
-                self.insert_full_record(year, poll_id, w, entry)
-
-    def backfill_poll_parallel(self, year: int, poll_id: int):
-        logging.info(f"(parallel) Backfilling poll id {poll_id} for {year}")
-        weeks = self.client.get_weeks(year, poll_id)
-        if not weeks:
-            logging.warning(f"No weeks found for poll id {poll_id} {year}")
-            return
-
-        for w in weeks:
-            poll_data = self.client.get_poll_data(w["url"])
-            headline = poll_data.get("headline", f"Week {w['week']}")
-            logging.info(f"Processing {headline}")
-
-            ranks = poll_data.get("ranks", [])
-            if not ranks:
-                continue
-
-            # ---- parallel fetch team data (no DB writes here) ----
-            def fetch_team(entry):
-                team_json = self.client.get_team_data(entry["team"]["$ref"])
-                return entry, team_json
-
-            results = []
-            with ThreadPoolExecutor(max_workers=10) as executor:
-                futures = [executor.submit(fetch_team, entry) for entry in ranks]
-                for f in as_completed(futures):
-                    try:
-                        results.append(f.result())
-                    except Exception as e:
-                        logging.error(f"Failed fetching team: {e}")
-
-            # ---- serial DB inserts (safe for SQLite) ----
-            for entry, team_json in results:
-                self.insert_full_record_serial(year, poll_id, w, entry, team_json)
-
-    def insert_full_record_serial(self, year: int, poll_id: int, week_info: Dict[str, Any],
-                                  entry: Dict[str, Any], team_json: Dict[str, Any]):
-        """Same as insert_full_record, but takes pre-fetched team_json and runs in main thread."""
-
-        # Season
-        season_pk = self.db.get_or_create(
-            "season",
-            {"season_year": year, "season_description": f"{year} season"}
-        )
-
-        # Week
-        week_pk = self.db.get_or_create(
-            "week",
-            {"week_number": week_info["week"],
-             "week_season_fk": season_pk,
-             "week_season_type_fk": week_info['seasonType']}
-        )
-
-        # School & Team
-        school_name = team_json.get("displayName")
-        team_name = team_json.get("nickname") or team_json.get("shortDisplayName") or school_name
-        abbreviation = team_json.get("abbreviation") or school_name[:4].upper()
-
-        school_pk = self.db.get_or_create("school", {"school_name": school_name})
-        team_name_corr, abbreviation_corr = get_corrected_team_data(abbreviation)
-        team_pk = self.db.get_or_create(
-            "team",
-            {"team_name": team_name_corr,
-             "team_school_fk": school_pk,
-             "team_abbreviation": abbreviation_corr}
-        )
-
-        # Ranking
-        self.db.insert_ranking(poll_id, week_pk, team_pk, entry)
-        logging.info(f'      Added rank for {team_name_corr}')
-
-    def insert_full_record(self, year: int, poll_id: int, week_info: Dict[str, Any], entry: Dict[str, Any]):
-        # We already have poll pk and also assume season types are fixed
-
-        # Season
-        season_pk = self.db.get_or_create(
-            "season",
-            {"season_year": year, "season_description": f"{year} season"}
-        )
-
-        # Week (composite uniqueness simplified to just week_number here)
-        week_pk = self.db.get_or_create(
-            "week",
-            {"week_number": week_info["week"],
-             "week_season_fk": season_pk, "week_season_type_fk": week_info['seasonType']}
-        )
-
-        # School & Team
-        team_json = self.client.get_team_data(entry["team"]["$ref"])
-        school_name = team_json.get("displayName")
-        team_name = team_json.get("nickname") or team_json.get("shortDisplayName") or school_name
-        abbreviation = team_json.get("abbreviation") or school_name[:4].upper()
-
-        school_pk = self.db.get_or_create("school",  {"school_name": school_name})
-        # map to correct team name
-        team_name_corr, abbreviation_corr = get_corrected_team_data(abbreviation)
-        team_pk = self.db.get_or_create(
-            "team",
-            {"team_name": team_name_corr, "team_school_fk": school_pk,
-             "team_abbreviation": abbreviation_corr}
-        )
-
-        # Ranking
-        self.db.insert_ranking(poll_id, week_pk, team_pk, entry)
-        print(f'      Successfully added rank for {team_name}')
 
 
 class Backfiller:
@@ -366,7 +243,11 @@ class Backfiller:
         abbreviation = team_json.get("abbreviation") or school_name[:4].upper()
 
         school_pk = self.db.get_or_create("school", {"school_name": school_name})
-        team_name_corr, abbreviation_corr = get_corrected_team_data(abbreviation)
+        try:
+            team_name_corr, abbreviation_corr = get_corrected_team_data(team_name, abbreviation, school_name)
+        except Exception as e:
+            print(f"Failed on team abbreviation: {team_name, school_name, abbreviation}")
+            raise e
         team_pk = self.db.get_or_create(
             "team",
             {"team_name": team_name_corr,
@@ -385,8 +266,8 @@ def main(years: list, poll_ids: list):
     db = Database(DB_PATH)
     backfiller = Backfiller(db, client)
 
-    for year in YEARS:
-        for poll_id in POLL_IDS:
+    for year in years:
+        for poll_id in poll_ids:
             # backfiller.backfill_poll(year, poll_id)
             backfiller.backfill_poll_parallel(year, poll_id)
 

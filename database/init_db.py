@@ -33,7 +33,7 @@ def init_db(drop=True):
 if __name__ == "__main__":
 
     ######
-    YEAR_START = 2000
+    YEAR_START = 2004
     YEAR_END = 2024
     POLL_IDS = [1, 2]
     ######
