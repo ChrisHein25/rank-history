@@ -202,8 +202,10 @@ cython_debug/
 .cursorindexingignore
 
 *.db
+*.db.bak
 
 .idea/
+frontend/data/*
 
 # Marimo
 marimo/_static/

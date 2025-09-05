@@ -1,4 +1,5 @@
 // ---------- Utilities ----------
+
 async function fetchJSONSafe(url) {
   const res = await fetch(url);
   try {
@@ -24,6 +25,41 @@ function stableColorFor(str) {
   for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) % 360;
   return `hsl(${h},70%,45%)`;
 }
+
+class ColorManager {
+  constructor() {
+    this.palette = [
+      '#e41a1c', '#377eb8', '#4daf4a', '#984ea3',
+      '#ff7f00', '#ffff33', '#a65628', '#f781bf', '#999999',
+      '#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3', '#a6d854'
+    ];
+    this.assigned = new Map(); // team -> color
+    this.available = [...this.palette];
+  }
+
+  getColor(team) {
+    if (this.assigned.has(team)) {
+      return this.assigned.get(team);
+    }
+    const color = this.available.shift() || '#000'; // fallback black
+    this.assigned.set(team, color);
+    return color;
+  }
+
+  release(team) {
+    if (this.assigned.has(team)) {
+      const color = this.assigned.get(team);
+      this.assigned.delete(team);
+      this.available.push(color); // recycle
+    }
+  }
+
+  reset() {
+    this.assigned.clear();
+    this.available = [...this.palette];
+  }
+}
+
 
 // ---------- Data Layer ----------
 class DataStore {
@@ -86,11 +122,16 @@ class DataStore {
   }
 
   getOverratedSeries(poll, team) {
-    return this.overrated
-      .filter(r => r.poll_name === poll && r.team_name === team)
-      .map(r => ({ x: r.season_year, y: r.overrated_index }))
-      .sort((a, b) => a.x - b.x);
-  }
+      return this.overrated
+        .filter(r => r.poll_name === poll && r.team_name === team)
+        .map(r => ({
+          x: r.season_year,
+          y: r.overrated_index,
+          start: r.start_rank ?? 'Unranked',
+          end: r.end_rank ?? 'Unranked'
+        }))
+        .sort((a, b) => a.x - b.x);
+    }
 
   getOverratedStat(poll, team) {
     return this.overratedStats.find(
@@ -116,6 +157,10 @@ class App {
     this.store = store;
     this.state = state;
 
+    // color manager
+    this.colorManager = new ColorManager();
+
+
     // DOM
     this.pollFilter = document.getElementById('pollFilter');
     this.pollInfo = document.getElementById('pollInfo');
@@ -140,58 +185,53 @@ class App {
     this.topOverratedTbody = this.topOverratedTable.querySelector('tbody');
     this.topOverratedEmpty = document.getElementById('topOverratedEmpty');
     this.topMode = document.getElementById('topMode');
-
-
+    this.topMinSeasons = document.getElementById('topMinSeasons');
 
     this.chart = null;
   }
 
   initEvents() {
-      // Poll selector
-      this.pollFilter.addEventListener('change', () => {
-        this.state.poll = this.pollFilter.value;
-        this.populateYearWeekDefaults();
-        this.populateTeamChoices();
-        this.renderAll();
-      });
+    // Poll selector
+    this.pollFilter.addEventListener('change', () => {
+      this.state.poll = this.pollFilter.value;
+      this.populateYearWeekDefaults();
+      this.populateTeamChoices();
+      this.renderAll();
+    });
 
-      // Year selector
-      this.yearSelect.addEventListener('change', () => {
-        this.state.year = Number(this.yearSelect.value);
-        this.populateWeeks();
-        this.state.week = Number(this.weekSelect.value);
-        this.renderRankings();
-      });
+    // Year selector
+    this.yearSelect.addEventListener('change', () => {
+      this.state.year = Number(this.yearSelect.value);
+      this.populateWeeks();
+      this.state.week = Number(this.weekSelect.value);
+      this.renderRankings();
+    });
 
-      // Week selector
-      this.weekSelect.addEventListener('change', () => {
-        this.state.week = Number(this.weekSelect.value);
-        this.renderRankings();
-      });
+    // Week selector
+    this.weekSelect.addEventListener('change', () => {
+      this.state.week = Number(this.weekSelect.value);
+      this.renderRankings();
+    });
 
-      // Team selector
-      this.teamSelect.addEventListener('change', () => {
-        const selected = Array.from(this.teamSelect.selectedOptions).map(o => o.value);
-        if (selected.length > this.state.maxTeams) {
-          alert(`You can select up to ${this.state.maxTeams} teams.`);
-          while (this.teamSelect.selectedOptions.length > this.state.maxTeams) {
-            this.teamSelect.selectedOptions[this.teamSelect.selectedOptions.length - 1].selected = false;
-          }
-          return;
+    // Team selector
+    this.teamSelect.addEventListener('change', () => {
+      const selected = Array.from(this.teamSelect.selectedOptions).map(o => o.value);
+      if (selected.length > this.state.maxTeams) {
+        alert(`You can select up to ${this.state.maxTeams} teams.`);
+        while (this.teamSelect.selectedOptions.length > this.state.maxTeams) {
+          this.teamSelect.selectedOptions[this.teamSelect.selectedOptions.length - 1].selected = false;
         }
-        this.state.teams = new Set(selected);
-        this.renderOverrated();
-      });
+        return;
+      }
+      this.state.teams = new Set(selected);
+      this.renderOverrated();
+    });
 
-      // 🔑 Top Overrated/Underrated widgets
-      this.topOverratedCount.addEventListener('change', () => {
-        this.renderTopOverrated();
-      });
-      this.topMode.addEventListener('change', () => {
-        this.renderTopOverrated();
-      });
-    }
-
+    // Top widget filters
+    this.topOverratedCount.addEventListener('change', () => this.renderTopOverrated());
+    this.topMode.addEventListener('change', () => this.renderTopOverrated());
+    this.topMinSeasons.addEventListener('change', () => this.renderTopOverrated());
+  }
 
   // ----- Populate controls -----
   populatePolls() {
@@ -223,56 +263,57 @@ class App {
   }
 
   populateTeamChoices() {
-    const teams = this.store.getTeamsForOverrated(this.state.poll);
-    this.teamSelect.innerHTML = teams.map(t => `<option value="${t}">${t}</option>`).join('');
-    const keep = [...this.state.teams].filter(t => teams.includes(t)).slice(0, this.state.maxTeams);
-    this.state.teams = new Set(keep);
-    Array.from(this.teamSelect.options).forEach(opt => { opt.selected = this.state.teams.has(opt.value); });
-  }
+  const teams = this.store.getTeamsForOverrated(this.state.poll);
+  this.teamSelect.innerHTML = teams.map(t => `<option value="${t}">${t}</option>`).join('');
+
+  // ✅ keep selected if in state
+  Array.from(this.teamSelect.options).forEach(opt => {
+    opt.selected = this.state.teams.has(opt.value);
+  });
+}
 
   // ----- Renders -----
   renderTopOverrated() {
-      const { poll } = this.state;
-      if (!poll) return;
+    const { poll } = this.state;
+    if (!poll) return;
 
-      const limit = Number(this.topOverratedCount.value) || 20;
-      const mode = this.topMode.value; // "overrated" or "underrated"
+    const limit = Number(this.topOverratedCount.value) || 20;
+    const mode = this.topMode.value; // "overrated" or "underrated"
+    const minSeasons = Number(this.topMinSeasons.value) || 0;
 
-      let stats = this.store.overratedStats
-        .filter(r => r.poll_name === poll)
-        .map(r => ({
-          team: r.team_name,
-          avg: Number(r.avg_overrated_index),
-          seasons: r.seasons_counted
-        }));
+    let stats = this.store.overratedStats
+      .filter(r => r.poll_name === poll && r.seasons_counted >= minSeasons)
+      .map(r => ({
+        team: r.team_name,
+        avg: Number(r.avg_overrated_index),
+        seasons: r.seasons_counted
+      }));
 
-      if (mode === 'overrated') {
-        stats = stats.sort((a, b) => b.avg - a.avg);
-      } else {
-        stats = stats.sort((a, b) => a.avg - b.avg);
-      }
-
-      stats = stats.slice(0, limit);
-
-      if (!stats.length) {
-        this.topOverratedTable.style.display = 'none';
-        this.topOverratedEmpty.style.display = '';
-        return;
-      }
-
-      this.topOverratedEmpty.style.display = 'none';
-      this.topOverratedTable.style.display = '';
-      this.topOverratedTbody.innerHTML = stats.map((r, i) => `
-        <tr>
-          <td>${i + 1}</td>
-          <td>${r.team}</td>
-          <td>${r.avg.toFixed(2)}</td>
-          <td>${r.seasons}</td>
-        </tr>
-      `).join('');
+    if (mode === 'overrated') {
+      stats = stats.sort((a, b) => b.avg - a.avg);
+    } else {
+      stats = stats.sort((a, b) => a.avg - b.avg);
     }
 
+    stats = stats.slice(0, limit);
 
+    if (!stats.length) {
+      this.topOverratedTable.style.display = 'none';
+      this.topOverratedEmpty.style.display = '';
+      return;
+    }
+
+    this.topOverratedEmpty.style.display = 'none';
+    this.topOverratedTable.style.display = '';
+    this.topOverratedTbody.innerHTML = stats.map((r, i) => `
+      <tr>
+        <td>${i + 1}</td>
+        <td>${r.team}</td>
+        <td>${r.avg.toFixed(2)}</td>
+        <td>${r.seasons}</td>
+      </tr>
+    `).join('');
+  }
 
   renderRankings() {
     const { poll, week } = this.state;
@@ -295,37 +336,75 @@ class App {
   }
 
   renderOverrated() {
-    const teams = [...this.state.teams];
-    if (!teams.length) {
-      if (this.chart) { this.chart.destroy(); this.chart = null; }
-      this.overratedEmpty.style.display = '';
-    } else {
-      this.overratedEmpty.style.display = 'none';
-      const datasets = teams.map(team => {
-        const series = this.store.getOverratedSeries(this.state.poll, team);
-        return {
-          label: team,
-          borderColor: stableColorFor(team),
-          backgroundColor: 'transparent',
-          data: series,
-          tension: 0.25
-        };
-      });
-      if (this.chart) this.chart.destroy();
-      this.chart = new Chart(this.overratedChartEl, {
-        type: 'line',
-        data: { datasets },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          scales: {
-            x: { type: 'linear', title: { display: true, text: 'Season Year' }, ticks: { precision: 0 } },
-            y: { title: { display: true, text: 'Overrated Index (start - end)' } }
-          },
-          plugins: { legend: { position: 'bottom' } }
-        }
-      });
-    }
+      const teams = [...this.state.teams];
+
+      // Clean up released colors
+      for (const [team] of this.colorManager.assigned) {
+        if (!teams.includes(team)) this.colorManager.release(team);
+      }
+
+      if (!teams.length) {
+        if (this.chart) { this.chart.destroy(); this.chart = null; }
+        this.overratedEmpty.style.display = '';
+      } else {
+        this.overratedEmpty.style.display = 'none';
+        const datasets = teams.map(team => {
+          const series = this.store.getOverratedSeries(this.state.poll, team);
+          return {
+            label: team,
+            borderColor: this.colorManager.getColor(team),
+            backgroundColor: 'transparent',
+            data: series,
+            tension: 0.25
+          };
+        });
+        if (this.chart) this.chart.destroy();
+        this.chart = new Chart(this.overratedChartEl, {
+          type: 'line',
+          data: { datasets },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                type: 'linear',
+                title: { display: true, text: 'Season Year' },
+                ticks: {
+                  callback: (value) => String(value)  // force plain string, no commas
+                }
+              },
+              y: {
+                title: { display: true, text: 'Overrated Index' }
+              }
+            },
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: {
+                  usePointStyle: true,
+                  pointStyle: 'line'
+                }
+              },
+              tooltip: {
+                callbacks: {
+                    title: (ctx) => {
+                      const year = String(ctx[0].raw.x); // safe access
+                      return `${ctx[0].dataset.label} (${year})`;
+                    },
+                    label: (ctx) => {
+                      const d = ctx.raw;
+                      const year = String(d.x); // no commas like 2,004
+                      const start = d.start ?? 'Unranked';
+                      const end = d.end ?? 'Unranked';
+                      return `Index ${d.y}, Start: ${start}, End: ${end}`;
+                    }
+                  }
+              }
+            }
+          }
+        });
+
+      }
 
     if (!teams.length) {
       this.overratedStatsTable.style.display = 'none';
@@ -343,19 +422,24 @@ class App {
   }
 
   renderAll() {
-      this.renderRankings();
-      this.renderOverrated();
-      this.renderTopOverrated(); // ✅ ensures widget updates
-    }
+    this.renderRankings();
+    this.renderOverrated();
+    this.renderTopOverrated();
+  }
 
   async boot() {
-    await this.store.load();
-    this.populatePolls();
-    this.populateYearWeekDefaults();
-    this.populateTeamChoices();
-    this.initEvents();
-    this.renderAll();
-  }
+      await this.store.load();
+      this.populatePolls();
+      this.populateYearWeekDefaults();
+
+      // ✅ Preselect overrated chart teams
+      const defaultTeams = ["Alabama", "Ohio State", "Notre Dame"];//, "Texas", "LSU"];
+      this.state.teams = new Set(defaultTeams);
+
+      this.populateTeamChoices(); // will respect .state.teams
+      this.initEvents();
+      this.renderAll();
+    }
 }
 
 // ---------- Start ----------

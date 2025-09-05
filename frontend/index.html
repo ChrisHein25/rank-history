@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>College Rankings Explorer</title>
+  <title>Rankings Explorer</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -26,7 +26,12 @@
   </style>
 </head>
 <body>
-  <h1>College Rankings Explorer</h1>
+  <h1>NCAA College Football Rankings Explorer</h1>
+  <p>
+    Data from <a href="https://www.espn.com/college-football/rankings" target="_blank">ESPN</a>, 2004–2024 (for now)
+  </p>
+
+
 
   <!-- Global Poll Filter -->
   <div class="card">
@@ -37,36 +42,13 @@
     </div>
   </div>
 
-  <!-- Season Ranking Visualizer -->
-  <section id="season-visualizer" class="card">
-    <h2>Season Ranking Visualizer</h2>
-    <div class="controls">
-      <label for="yearSelect">Year:</label>
-      <select id="yearSelect"></select>
-
-      <label for="weekSelect">Week:</label>
-      <select id="weekSelect"></select>
-
-      <span id="seasonInfo" class="muted"></span>
-    </div>
-
-    <div id="rankingsEmpty" class="muted" style="display:none;">No rankings found for this selection.</div>
-    <table id="rankingsTable" style="display:none;">
-      <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Team</th>
-          <th>Points</th>
-          <th>1st Place Votes</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </section>
-
   <!-- Overrated Index Explorer -->
   <section id="overrated-explorer">
-    <h2>Overrated Index Explorer</h2>
+    <h2>Overrated Index</h2>
+    <p>
+      The overrated index compares a team's final ranking vs. preseason ranking.
+      A positive value means a team was "overrated", while a negative value implies a team was "underrated".
+    </p>
     <div class="row">
       <div class="card sidebar">
         <div class="controls">
@@ -96,7 +78,8 @@
     </div>
   </section>
 
- <section class="card">
+  <!-- Top Overrated Index Table -->
+  <section class="card">
   <h2>Top Teams by Rating</h2>
   <label for="topMode">Mode:</label>
   <select id="topMode">
@@ -106,11 +89,13 @@
 
   <label for="topOverratedCount">Show Top:</label>
   <select id="topOverratedCount">
-    <option value="10">10</option>
-    <option value="20" selected>20</option>
+    <option value="10" selected>10</option>
+    <option value="20">20</option>
     <option value="30">30</option>
   </select>
 
+  <label for="topMinSeasons">Min Seasons:</label>
+  <input type="number" id="topMinSeasons" value="3" min="1" style="width:60px;">
   <table id="topOverratedTable" class="data-table">
     <thead>
       <tr>
@@ -124,6 +109,33 @@
   </table>
   <div id="topOverratedEmpty">(no data)</div>
 </section>
+
+  <!-- Season Ranking Visualizer -->
+  <section id="season-visualizer" class="card">
+    <h2>Season Ranking Visualizer</h2>
+    <div class="controls">
+      <label for="yearSelect">Year:</label>
+      <select id="yearSelect"></select>
+
+      <label for="weekSelect">Week:</label>
+      <select id="weekSelect"></select>
+
+      <span id="seasonInfo" class="muted"></span>
+    </div>
+
+    <div id="rankingsEmpty" class="muted" style="display:none;">No rankings found for this selection.</div>
+    <table id="rankingsTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Team</th>
+          <th>Points</th>
+          <th>1st Place Votes</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
 
 
   <script src="app.js"></script>
