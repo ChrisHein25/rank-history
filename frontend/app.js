@@ -72,10 +72,10 @@ class DataStore {
 
   async load() {
     const [rankings, overrated, overratedStats, alltime] = await Promise.all([
-      fetchJSONSafe('./data/rankings.json'),
-      fetchJSONSafe('./data/overrated.json'),
-      fetchJSONSafe('./data/overrated_stats.json'),
-      fetchJSONSafe('./data/alltime_summary.json'),
+      fetchJSONSafe('data/rankings.json'),
+      fetchJSONSafe('data/overrated.json'),
+      fetchJSONSafe('data/overrated_stats.json'),
+      fetchJSONSafe('data/alltime_summary.json'),
     ]);
     this.rankings = rankings;
     this.overrated = overrated;
