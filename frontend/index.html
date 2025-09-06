@@ -26,7 +26,7 @@
   </style>
 </head>
 <body>
-  <h1>NCAA College Football Rankings Explorer</h1>
+  <h1>FBS College Football Rankings Explorer</h1>
   <p>
     Data from <a href="https://www.espn.com/college-football/rankings" target="_blank">ESPN</a>, 2004–2024 (for now)
   </p>
@@ -45,10 +45,22 @@
   <!-- All Time Summary -->
   <section class="card">
     <h2>All-Time Summary</h2>
+    <p>
+      GOAT metrics: sort by total weeks ranked, weeks at #1, in the top 3, or in the top 10.
+    </p>
+    <label for="alltimeSort">Sort By:</label>
+    <select id="alltimeSort">
+      <option value="total_weeks_ranked" selected>Total Weeks Ranked</option>
+      <option value="weeks_at_number_one">#1 Weeks</option>
+      <option value="weeks_in_top_3">Top 3 Weeks</option>
+      <option value="weeks_in_top_10">Top 10 Weeks</option>
+    </select>
+
 
     <label for="alltimeCount">Show Top:</label>
     <select id="alltimeCount">
-      <option value="10" selected>10</option>
+      <option value="5" selected>5</option>
+      <option value="10">10</option>
       <option value="20">20</option>
       <option value="50">50</option>
     </select>
@@ -71,7 +83,7 @@
 
 
   <!-- Overrated Index Explorer -->
-  <section id="overrated-explorer">
+  <section id="overrated-explorer" class="card">
     <h2>Overrated Index</h2>
     <p>
       The overrated index compares a team's final ranking vs. preseason ranking.
@@ -108,7 +120,12 @@
 
   <!-- Top Overrated Index Table -->
   <section class="card">
-  <h2>Top Teams by Rating</h2>
+  <h2>Most Overrated Teams</h2>
+  <p>
+    Shows teams with the highest average overrated index across seasons.
+    Filter by minimum seasons to avoid one-off outliers.
+    You can also see the most underrated teams.
+  </p>
   <label for="topMode">Mode:</label>
   <select id="topMode">
     <option value="overrated" selected>Overrated</option>
@@ -117,7 +134,8 @@
 
   <label for="topOverratedCount">Show Top:</label>
   <select id="topOverratedCount">
-    <option value="10" selected>10</option>
+    <option value="5" selected>5</option>
+    <option value="10">10</option>
     <option value="20">20</option>
     <option value="30">30</option>
   </select>
@@ -141,6 +159,9 @@
   <!-- Season Ranking Visualizer -->
   <section id="season-visualizer" class="card">
     <h2>Season Ranking Visualizer</h2>
+    <p>
+      An interactive table, similar to ESPN’s rankings, for exploring the raw weekly data by year and week.
+    </p>
     <div class="controls">
       <label for="yearSelect">Year:</label>
       <select id="yearSelect"></select>

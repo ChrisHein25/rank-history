@@ -157,6 +157,8 @@ class AppState {
     this.week = null; // stores week_pk now
     this.teams = new Set();
     this.maxTeams = 5;
+
+    this.alltimeSort = 'total_weeks_ranked';
   }
 }
 
@@ -206,7 +208,14 @@ class App {
 
   initEvents() {
 
+    // All Time table
+    this.alltimeSort = document.getElementById('alltimeSort');
     this.alltimeCount.addEventListener('change', () => this.renderAlltime());
+    this.alltimeSort.addEventListener('change', () => {
+      this.state.alltimeSort = this.alltimeSort.value;
+      this.renderAlltime();
+    });
+
 
 
     // Poll selector
@@ -296,9 +305,15 @@ class App {
       if (!poll) return;
 
       const limit = Number(this.alltimeCount.value) || 20;
-      const rows = this.store.getAlltimeStats(poll).slice(0, limit);
+      const rows = this.store.getAlltimeStats(poll);
 
-      if (!rows.length) {
+      // apply dynamic sort
+      const sortKey = this.state.alltimeSort;
+      rows.sort((a, b) => (b[sortKey] || 0) - (a[sortKey] || 0));
+
+      const topRows = rows.slice(0, limit);
+
+      if (!topRows.length) {
         this.alltimeTable.style.display = 'none';
         this.alltimeEmpty.style.display = '';
         return;
@@ -306,7 +321,7 @@ class App {
 
       this.alltimeEmpty.style.display = 'none';
       this.alltimeTable.style.display = '';
-      this.alltimeTbody.innerHTML = rows.map((r, i) => `
+      this.alltimeTbody.innerHTML = topRows.map((r, i) => `
         <tr>
           <td>${i + 1}</td>
           <td>${r.team_name}</td>
@@ -317,6 +332,7 @@ class App {
         </tr>
       `).join('');
     }
+
 
 
   renderTopOverrated() {
