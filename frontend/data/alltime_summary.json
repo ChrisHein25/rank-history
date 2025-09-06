@@ -1,0 +1,2202 @@
+[
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 3,
+    "team_name": "Ohio State",
+    "team_abbreviation": "OSU",
+    "total_weeks_ranked": 306,
+    "weeks_at_number_one": 34,
+    "weeks_in_top_3": 124,
+    "weeks_in_top_10": 268
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 48,
+    "team_name": "Alabama",
+    "team_abbreviation": "ALA",
+    "total_weeks_ranked": 301,
+    "weeks_at_number_one": 113,
+    "weeks_in_top_3": 190,
+    "weeks_in_top_10": 263
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 5,
+    "team_name": "Oklahoma",
+    "team_abbreviation": "OU",
+    "total_weeks_ranked": 296,
+    "weeks_at_number_one": 11,
+    "weeks_in_top_3": 59,
+    "weeks_in_top_10": 187
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 9,
+    "team_name": "LSU",
+    "team_abbreviation": "LSU",
+    "total_weeks_ranked": 288,
+    "weeks_at_number_one": 18,
+    "weeks_in_top_3": 54,
+    "weeks_in_top_10": 154
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 8,
+    "team_name": "Georgia",
+    "team_abbreviation": "UGA",
+    "total_weeks_ranked": 278,
+    "weeks_at_number_one": 40,
+    "weeks_in_top_3": 90,
+    "weeks_in_top_10": 209
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 25,
+    "team_name": "Oregon",
+    "team_abbreviation": "ORE",
+    "total_weeks_ranked": 257,
+    "weeks_at_number_one": 17,
+    "weeks_in_top_3": 54,
+    "weeks_in_top_10": 142
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 20,
+    "team_name": "Clemson",
+    "team_abbreviation": "CLEM",
+    "total_weeks_ranked": 243,
+    "weeks_at_number_one": 22,
+    "weeks_in_top_3": 76,
+    "weeks_in_top_10": 142
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 10,
+    "team_name": "Michigan",
+    "team_abbreviation": "MICH",
+    "total_weeks_ranked": 226,
+    "weeks_at_number_one": 2,
+    "weeks_in_top_3": 38,
+    "weeks_in_top_10": 105
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 21,
+    "team_name": "Wisconsin",
+    "team_abbreviation": "WIS",
+    "total_weeks_ranked": 222,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 2,
+    "weeks_in_top_10": 72
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 6,
+    "team_name": "Texas",
+    "team_abbreviation": "TEX",
+    "total_weeks_ranked": 221,
+    "weeks_at_number_one": 7,
+    "weeks_in_top_3": 53,
+    "weeks_in_top_10": 131
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 11,
+    "team_name": "Florida",
+    "team_abbreviation": "FLA",
+    "total_weeks_ranked": 220,
+    "weeks_at_number_one": 16,
+    "weeks_in_top_3": 33,
+    "weeks_in_top_10": 116
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 36,
+    "team_name": "Notre Dame",
+    "team_abbreviation": "ND",
+    "total_weeks_ranked": 213,
+    "weeks_at_number_one": 3,
+    "weeks_in_top_3": 23,
+    "weeks_in_top_10": 119
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 4,
+    "team_name": "USC",
+    "team_abbreviation": "USC",
+    "total_weeks_ranked": 208,
+    "weeks_at_number_one": 42,
+    "weeks_in_top_3": 62,
+    "weeks_in_top_10": 129
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 31,
+    "team_name": "Oklahoma State",
+    "team_abbreviation": "OKST",
+    "total_weeks_ranked": 195,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 57
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 51,
+    "team_name": "Penn State",
+    "team_abbreviation": "PSU",
+    "total_weeks_ranked": 194,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 13,
+    "weeks_in_top_10": 106
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 17,
+    "team_name": "Auburn",
+    "team_abbreviation": "AUB",
+    "total_weeks_ranked": 187,
+    "weeks_at_number_one": 1,
+    "weeks_in_top_3": 23,
+    "weeks_in_top_10": 83
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 7,
+    "team_name": "Florida State",
+    "team_abbreviation": "FSU",
+    "total_weeks_ranked": 182,
+    "weeks_at_number_one": 10,
+    "weeks_in_top_3": 31,
+    "weeks_in_top_10": 104
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 16,
+    "team_name": "Utah",
+    "team_abbreviation": "UTAH",
+    "total_weeks_ranked": 169,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 41
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 29,
+    "team_name": "Boise State",
+    "team_abbreviation": "BSU",
+    "total_weeks_ranked": 169,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 10,
+    "weeks_in_top_10": 60
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 34,
+    "team_name": "Texas A&M",
+    "team_abbreviation": "TA&M",
+    "total_weeks_ranked": 156,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 46
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 35,
+    "team_name": "Virginia Tech",
+    "team_abbreviation": "VT",
+    "total_weeks_ranked": 151,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 7,
+    "weeks_in_top_10": 40
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 46,
+    "team_name": "TCU",
+    "team_abbreviation": "TCU",
+    "total_weeks_ranked": 145,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 18,
+    "weeks_in_top_10": 66
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 2,
+    "team_name": "Miami (FL)",
+    "team_abbreviation": "MIA",
+    "total_weeks_ranked": 144,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 6,
+    "weeks_in_top_10": 55
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 1,
+    "team_name": "West Virginia",
+    "team_abbreviation": "WVU",
+    "total_weeks_ranked": 140,
+    "weeks_at_number_one": 1,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 51
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 49,
+    "team_name": "Michigan State",
+    "team_abbreviation": "MSU",
+    "total_weeks_ranked": 133,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 55
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 28,
+    "team_name": "Louisville",
+    "team_abbreviation": "LOU",
+    "total_weeks_ranked": 124,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 41
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 12,
+    "team_name": "Tennessee",
+    "team_abbreviation": "TENN",
+    "total_weeks_ranked": 122,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 41
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 18,
+    "team_name": "Iowa",
+    "team_abbreviation": "IOWA",
+    "total_weeks_ranked": 122,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 24
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 77,
+    "team_name": "Stanford",
+    "team_abbreviation": "STAN",
+    "total_weeks_ranked": 120,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 57
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 73,
+    "team_name": "Ole Miss",
+    "team_abbreviation": "MISS",
+    "total_weeks_ranked": 118,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 2,
+    "weeks_in_top_10": 33
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 54,
+    "team_name": "Nebraska",
+    "team_abbreviation": "NEB",
+    "total_weeks_ranked": 117,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 19
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 14,
+    "team_name": "Missouri",
+    "team_abbreviation": "MIZ",
+    "total_weeks_ranked": 110,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 32
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 82,
+    "team_name": "Baylor",
+    "team_abbreviation": "BAY",
+    "total_weeks_ranked": 99,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 6,
+    "weeks_in_top_10": 50
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 32,
+    "team_name": "South Carolina",
+    "team_abbreviation": "SC",
+    "total_weeks_ranked": 94,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 25
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 64,
+    "team_name": "Cincinnati",
+    "team_abbreviation": "CIN",
+    "total_weeks_ranked": 93,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 5,
+    "weeks_in_top_10": 38
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 75,
+    "team_name": "Washington",
+    "team_abbreviation": "WASH",
+    "total_weeks_ranked": 93,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 43
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 59,
+    "team_name": "BYU",
+    "team_abbreviation": "BYU",
+    "total_weeks_ranked": 92,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 13
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 50,
+    "team_name": "UCLA",
+    "team_abbreviation": "UCLA",
+    "total_weeks_ranked": 89,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 13
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 15,
+    "team_name": "Kansas State",
+    "team_abbreviation": "KSU",
+    "total_weeks_ranked": 88,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 17
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 30,
+    "team_name": "Arizona State",
+    "team_abbreviation": "ASU",
+    "total_weeks_ranked": 85,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 56,
+    "team_name": "Arkansas",
+    "team_abbreviation": "ARK",
+    "total_weeks_ranked": 73,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 17
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 19,
+    "team_name": "California",
+    "team_abbreviation": "CAL",
+    "total_weeks_ranked": 72,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 2,
+    "weeks_in_top_10": 26
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 71,
+    "team_name": "North Carolina",
+    "team_abbreviation": "UNC",
+    "total_weeks_ranked": 71,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 5
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 81,
+    "team_name": "Mississippi State",
+    "team_abbreviation": "MSST",
+    "total_weeks_ranked": 68,
+    "weeks_at_number_one": 5,
+    "weeks_in_top_3": 5,
+    "weeks_in_top_10": 10
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 45,
+    "team_name": "Georgia Tech",
+    "team_abbreviation": "GT",
+    "total_weeks_ranked": 63,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 41,
+    "team_name": "Texas Tech",
+    "team_abbreviation": "TTU",
+    "total_weeks_ranked": 62,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 15
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 38,
+    "team_name": "Boston College",
+    "team_abbreviation": "BC",
+    "total_weeks_ranked": 56,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 83,
+    "team_name": "UCF",
+    "team_abbreviation": "UCF",
+    "total_weeks_ranked": 56,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 9
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 74,
+    "team_name": "Houston",
+    "team_abbreviation": "HOU",
+    "total_weeks_ranked": 50,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 9
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 43,
+    "team_name": "NC State",
+    "team_abbreviation": "NCST",
+    "total_weeks_ranked": 49,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 53,
+    "team_name": "Northwestern",
+    "team_abbreviation": "NW",
+    "total_weeks_ranked": 49,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 61,
+    "team_name": "Oregon State",
+    "team_abbreviation": "ORST",
+    "total_weeks_ranked": 48,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 63,
+    "team_name": "South Florida",
+    "team_abbreviation": "USF",
+    "total_weeks_ranked": 46,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 4
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 62,
+    "team_name": "Kentucky",
+    "team_abbreviation": "UK",
+    "total_weeks_ranked": 45,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 4
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 57,
+    "team_name": "Wake Forest",
+    "team_abbreviation": "WAKE",
+    "total_weeks_ranked": 43,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 76,
+    "team_name": "Arizona",
+    "team_abbreviation": "ARIZ",
+    "total_weeks_ranked": 43,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 26,
+    "team_name": "Fresno State",
+    "team_abbreviation": "FRES",
+    "total_weeks_ranked": 41,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 13,
+    "team_name": "Virginia",
+    "team_abbreviation": "UVA",
+    "total_weeks_ranked": 40,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 40,
+    "team_name": "Pittsburgh",
+    "team_abbreviation": "PITT",
+    "total_weeks_ranked": 40,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 47,
+    "team_name": "Iowa State",
+    "team_abbreviation": "ISU",
+    "total_weeks_ranked": 40,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 58,
+    "team_name": "Washington St",
+    "team_abbreviation": "WSU",
+    "total_weeks_ranked": 39,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 5
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 22,
+    "team_name": "Minnesota",
+    "team_abbreviation": "MINN",
+    "total_weeks_ranked": 36,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 27,
+    "team_name": "Memphis",
+    "team_abbreviation": "MEM",
+    "total_weeks_ranked": 36,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 65,
+    "team_name": "Kansas",
+    "team_abbreviation": "KU",
+    "total_weeks_ranked": 35,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 102,
+    "team_name": "SMU",
+    "team_abbreviation": "SMU",
+    "total_weeks_ranked": 33,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 55,
+    "team_name": "Rutgers",
+    "team_abbreviation": "RUTG",
+    "total_weeks_ranked": 28,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 66,
+    "team_name": "Illinois",
+    "team_abbreviation": "ILL",
+    "total_weeks_ranked": 28,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 52,
+    "team_name": "Colorado",
+    "team_abbreviation": "COLO",
+    "total_weeks_ranked": 25,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 103,
+    "team_name": "Indiana",
+    "team_abbreviation": "IU",
+    "total_weeks_ranked": 23,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 11
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 105,
+    "team_name": "Coastal Carolina",
+    "team_abbreviation": "CCU",
+    "total_weeks_ranked": 23,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 90,
+    "team_name": "Duke",
+    "team_abbreviation": "DUKE",
+    "total_weeks_ranked": 22,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 110,
+    "team_name": "Tulane",
+    "team_abbreviation": "TULN",
+    "total_weeks_ranked": 21,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 60,
+    "team_name": "Hawai'i",
+    "team_abbreviation": "HAW",
+    "total_weeks_ranked": 20,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 24,
+    "team_name": "Purdue",
+    "team_abbreviation": "PUR",
+    "total_weeks_ranked": 18,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 42,
+    "team_name": "Navy",
+    "team_abbreviation": "NAVY",
+    "total_weeks_ranked": 18,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 44,
+    "team_name": "Northern Illinois",
+    "team_abbreviation": "NIU",
+    "total_weeks_ranked": 18,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 99,
+    "team_name": "Syracuse",
+    "team_abbreviation": "SYR",
+    "total_weeks_ranked": 18,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 100,
+    "team_name": "Army",
+    "team_abbreviation": "ARMY",
+    "total_weeks_ranked": 18,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 104,
+    "team_name": "Louisiana",
+    "team_abbreviation": "UL",
+    "total_weeks_ranked": 17,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 95,
+    "team_name": "San Diego State",
+    "team_abbreviation": "SDSU",
+    "total_weeks_ranked": 16,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 91,
+    "team_name": "Marshall",
+    "team_abbreviation": "MRSH",
+    "total_weeks_ranked": 15,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 23,
+    "team_name": "Maryland",
+    "team_abbreviation": "MD",
+    "total_weeks_ranked": 14,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 88,
+    "team_name": "Utah State",
+    "team_abbreviation": "USU",
+    "total_weeks_ranked": 11,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 96,
+    "team_name": "W Michigan",
+    "team_abbreviation": "WMU",
+    "total_weeks_ranked": 11,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 106,
+    "team_name": "Liberty",
+    "team_abbreviation": "LIB",
+    "total_weeks_ranked": 11,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 33,
+    "team_name": "Southern Mississippi",
+    "team_abbreviation": "USM",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 70,
+    "team_name": "Ball State",
+    "team_abbreviation": "BALL",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 79,
+    "team_name": "Nevada",
+    "team_abbreviation": "NEV",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 98,
+    "team_name": "Appalachian State",
+    "team_abbreviation": "APP",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 108,
+    "team_name": "UTSA",
+    "team_abbreviation": "UTSA",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 93,
+    "team_name": "Temple",
+    "team_abbreviation": "TEM",
+    "total_weeks_ranked": 9,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 68,
+    "team_name": "East Carolina",
+    "team_abbreviation": "ECU",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 69,
+    "team_name": "Vanderbilt",
+    "team_abbreviation": "VAN",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 72,
+    "team_name": "Tulsa",
+    "team_abbreviation": "TLSA",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 111,
+    "team_name": "UNLV",
+    "team_abbreviation": "UNLV",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 80,
+    "team_name": "Air Force",
+    "team_abbreviation": "AF",
+    "total_weeks_ranked": 7,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 109,
+    "team_name": "James Madison",
+    "team_abbreviation": "JMU",
+    "total_weeks_ranked": 6,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 86,
+    "team_name": "Toledo",
+    "team_abbreviation": "TOL",
+    "total_weeks_ranked": 5,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 67,
+    "team_name": "Connecticut",
+    "team_abbreviation": "CONN",
+    "total_weeks_ranked": 4,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 84,
+    "team_name": "Louisiana Tech",
+    "team_abbreviation": "LT",
+    "total_weeks_ranked": 4,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 89,
+    "team_name": "San Jose State",
+    "team_abbreviation": "SJSU",
+    "total_weeks_ranked": 4,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 37,
+    "team_name": "UTEP",
+    "team_abbreviation": "UTEP",
+    "total_weeks_ranked": 3,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 92,
+    "team_name": "Colorado State",
+    "team_abbreviation": "CSU",
+    "total_weeks_ranked": 3,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 39,
+    "team_name": "Bowling Green",
+    "team_abbreviation": "BGSU",
+    "total_weeks_ranked": 2,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 87,
+    "team_name": "Kent State",
+    "team_abbreviation": "KENT",
+    "total_weeks_ranked": 2,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 97,
+    "team_name": "Troy",
+    "team_abbreviation": "TROY",
+    "total_weeks_ranked": 2,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 78,
+    "team_name": "Central Michigan",
+    "team_abbreviation": "CMU",
+    "total_weeks_ranked": 1,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 85,
+    "team_name": "Ohio",
+    "team_abbreviation": "OHIO",
+    "total_weeks_ranked": 1,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 101,
+    "team_name": "UAB",
+    "team_abbreviation": "UAB",
+    "total_weeks_ranked": 1,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_pk": 107,
+    "team_name": "Buffalo",
+    "team_abbreviation": "BUFF",
+    "total_weeks_ranked": 1,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 3,
+    "team_name": "Ohio State",
+    "team_abbreviation": "OSU",
+    "total_weeks_ranked": 320,
+    "weeks_at_number_one": 33,
+    "weeks_in_top_3": 124,
+    "weeks_in_top_10": 273
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 5,
+    "team_name": "Oklahoma",
+    "team_abbreviation": "OU",
+    "total_weeks_ranked": 295,
+    "weeks_at_number_one": 6,
+    "weeks_in_top_3": 53,
+    "weeks_in_top_10": 176
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 48,
+    "team_name": "Alabama",
+    "team_abbreviation": "ALA",
+    "total_weeks_ranked": 295,
+    "weeks_at_number_one": 109,
+    "weeks_in_top_3": 189,
+    "weeks_in_top_10": 265
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 9,
+    "team_name": "LSU",
+    "team_abbreviation": "LSU",
+    "total_weeks_ranked": 287,
+    "weeks_at_number_one": 24,
+    "weeks_in_top_3": 50,
+    "weeks_in_top_10": 154
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 8,
+    "team_name": "Georgia",
+    "team_abbreviation": "UGA",
+    "total_weeks_ranked": 275,
+    "weeks_at_number_one": 40,
+    "weeks_in_top_3": 90,
+    "weeks_in_top_10": 198
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 25,
+    "team_name": "Oregon",
+    "team_abbreviation": "ORE",
+    "total_weeks_ranked": 258,
+    "weeks_at_number_one": 16,
+    "weeks_in_top_3": 61,
+    "weeks_in_top_10": 149
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 20,
+    "team_name": "Clemson",
+    "team_abbreviation": "CLEM",
+    "total_weeks_ranked": 239,
+    "weeks_at_number_one": 23,
+    "weeks_in_top_3": 71,
+    "weeks_in_top_10": 140
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 4,
+    "team_name": "USC",
+    "team_abbreviation": "USC",
+    "total_weeks_ranked": 225,
+    "weeks_at_number_one": 41,
+    "weeks_in_top_3": 60,
+    "weeks_in_top_10": 125
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 10,
+    "team_name": "Michigan",
+    "team_abbreviation": "MICH",
+    "total_weeks_ranked": 224,
+    "weeks_at_number_one": 2,
+    "weeks_in_top_3": 39,
+    "weeks_in_top_10": 102
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 11,
+    "team_name": "Florida",
+    "team_abbreviation": "FLA",
+    "total_weeks_ranked": 220,
+    "weeks_at_number_one": 16,
+    "weeks_in_top_3": 29,
+    "weeks_in_top_10": 115
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 36,
+    "team_name": "Notre Dame",
+    "team_abbreviation": "ND",
+    "total_weeks_ranked": 215,
+    "weeks_at_number_one": 3,
+    "weeks_in_top_3": 23,
+    "weeks_in_top_10": 122
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 6,
+    "team_name": "Texas",
+    "team_abbreviation": "TEX",
+    "total_weeks_ranked": 213,
+    "weeks_at_number_one": 8,
+    "weeks_in_top_3": 55,
+    "weeks_in_top_10": 126
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 21,
+    "team_name": "Wisconsin",
+    "team_abbreviation": "WIS",
+    "total_weeks_ranked": 212,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 76
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 51,
+    "team_name": "Penn State",
+    "team_abbreviation": "PSU",
+    "total_weeks_ranked": 189,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 13,
+    "weeks_in_top_10": 103
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 17,
+    "team_name": "Auburn",
+    "team_abbreviation": "AUB",
+    "total_weeks_ranked": 185,
+    "weeks_at_number_one": 2,
+    "weeks_in_top_3": 26,
+    "weeks_in_top_10": 90
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 31,
+    "team_name": "Oklahoma State",
+    "team_abbreviation": "OKST",
+    "total_weeks_ranked": 185,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 7,
+    "weeks_in_top_10": 51
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 7,
+    "team_name": "Florida State",
+    "team_abbreviation": "FSU",
+    "total_weeks_ranked": 181,
+    "weeks_at_number_one": 12,
+    "weeks_in_top_3": 30,
+    "weeks_in_top_10": 96
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 29,
+    "team_name": "Boise State",
+    "team_abbreviation": "BSU",
+    "total_weeks_ranked": 167,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 11,
+    "weeks_in_top_10": 60
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 16,
+    "team_name": "Utah",
+    "team_abbreviation": "UTAH",
+    "total_weeks_ranked": 162,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 2,
+    "weeks_in_top_10": 40
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 34,
+    "team_name": "Texas A&M",
+    "team_abbreviation": "TA&M",
+    "total_weeks_ranked": 155,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 53
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 35,
+    "team_name": "Virginia Tech",
+    "team_abbreviation": "VT",
+    "total_weeks_ranked": 148,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 6,
+    "weeks_in_top_10": 36
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 2,
+    "team_name": "Miami (FL)",
+    "team_abbreviation": "MIA",
+    "total_weeks_ranked": 144,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 5,
+    "weeks_in_top_10": 54
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 46,
+    "team_name": "TCU",
+    "team_abbreviation": "TCU",
+    "total_weeks_ranked": 144,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 15,
+    "weeks_in_top_10": 67
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 1,
+    "team_name": "West Virginia",
+    "team_abbreviation": "WVU",
+    "total_weeks_ranked": 134,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 48
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 49,
+    "team_name": "Michigan State",
+    "team_abbreviation": "MSU",
+    "total_weeks_ranked": 131,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 47
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 28,
+    "team_name": "Louisville",
+    "team_abbreviation": "LOU",
+    "total_weeks_ranked": 128,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 42
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 12,
+    "team_name": "Tennessee",
+    "team_abbreviation": "TENN",
+    "total_weeks_ranked": 125,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 4,
+    "weeks_in_top_10": 42
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 18,
+    "team_name": "Iowa",
+    "team_abbreviation": "IOWA",
+    "total_weeks_ranked": 121,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 26
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 77,
+    "team_name": "Stanford",
+    "team_abbreviation": "STAN",
+    "total_weeks_ranked": 120,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 2,
+    "weeks_in_top_10": 60
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 73,
+    "team_name": "Ole Miss",
+    "team_abbreviation": "MISS",
+    "total_weeks_ranked": 119,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 5,
+    "weeks_in_top_10": 34
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 54,
+    "team_name": "Nebraska",
+    "team_abbreviation": "NEB",
+    "total_weeks_ranked": 108,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 19
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 14,
+    "team_name": "Missouri",
+    "team_abbreviation": "MIZ",
+    "total_weeks_ranked": 106,
+    "weeks_at_number_one": 1,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 32
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 82,
+    "team_name": "Baylor",
+    "team_abbreviation": "BAY",
+    "total_weeks_ranked": 100,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 6,
+    "weeks_in_top_10": 46
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 59,
+    "team_name": "BYU",
+    "team_abbreviation": "BYU",
+    "total_weeks_ranked": 98,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 14
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 32,
+    "team_name": "South Carolina",
+    "team_abbreviation": "SC",
+    "total_weeks_ranked": 96,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 24
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 50,
+    "team_name": "UCLA",
+    "team_abbreviation": "UCLA",
+    "total_weeks_ranked": 93,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 14
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 75,
+    "team_name": "Washington",
+    "team_abbreviation": "WASH",
+    "total_weeks_ranked": 93,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 49
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 64,
+    "team_name": "Cincinnati",
+    "team_abbreviation": "CIN",
+    "total_weeks_ranked": 91,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 7,
+    "weeks_in_top_10": 39
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 15,
+    "team_name": "Kansas State",
+    "team_abbreviation": "KSU",
+    "total_weeks_ranked": 89,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 14
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 30,
+    "team_name": "Arizona State",
+    "team_abbreviation": "ASU",
+    "total_weeks_ranked": 88,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 19,
+    "team_name": "California",
+    "team_abbreviation": "CAL",
+    "total_weeks_ranked": 71,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 2,
+    "weeks_in_top_10": 29
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 56,
+    "team_name": "Arkansas",
+    "team_abbreviation": "ARK",
+    "total_weeks_ranked": 71,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 22
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 81,
+    "team_name": "Mississippi State",
+    "team_abbreviation": "MSST",
+    "total_weeks_ranked": 69,
+    "weeks_at_number_one": 5,
+    "weeks_in_top_3": 6,
+    "weeks_in_top_10": 10
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 45,
+    "team_name": "Georgia Tech",
+    "team_abbreviation": "GT",
+    "total_weeks_ranked": 64,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 7
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 71,
+    "team_name": "North Carolina",
+    "team_abbreviation": "UNC",
+    "total_weeks_ranked": 61,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 6
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 41,
+    "team_name": "Texas Tech",
+    "team_abbreviation": "TTU",
+    "total_weeks_ranked": 59,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 14
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 38,
+    "team_name": "Boston College",
+    "team_abbreviation": "BC",
+    "total_weeks_ranked": 55,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 3,
+    "weeks_in_top_10": 7
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 83,
+    "team_name": "UCF",
+    "team_abbreviation": "UCF",
+    "total_weeks_ranked": 54,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 10
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 61,
+    "team_name": "Oregon State",
+    "team_abbreviation": "ORST",
+    "total_weeks_ranked": 51,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 74,
+    "team_name": "Houston",
+    "team_abbreviation": "HOU",
+    "total_weeks_ranked": 51,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 40,
+    "team_name": "Pittsburgh",
+    "team_abbreviation": "PITT",
+    "total_weeks_ranked": 50,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 63,
+    "team_name": "South Florida",
+    "team_abbreviation": "USF",
+    "total_weeks_ranked": 47,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 47,
+    "team_name": "Iowa State",
+    "team_abbreviation": "ISU",
+    "total_weeks_ranked": 46,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 7
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 43,
+    "team_name": "NC State",
+    "team_abbreviation": "NCST",
+    "total_weeks_ranked": 45,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 57,
+    "team_name": "Wake Forest",
+    "team_abbreviation": "WAKE",
+    "total_weeks_ranked": 45,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 58,
+    "team_name": "Washington St",
+    "team_abbreviation": "WSU",
+    "total_weeks_ranked": 44,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 6
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 26,
+    "team_name": "Fresno State",
+    "team_abbreviation": "FRES",
+    "total_weeks_ranked": 43,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 76,
+    "team_name": "Arizona",
+    "team_abbreviation": "ARIZ",
+    "total_weeks_ranked": 43,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 53,
+    "team_name": "Northwestern",
+    "team_abbreviation": "NW",
+    "total_weeks_ranked": 42,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 62,
+    "team_name": "Kentucky",
+    "team_abbreviation": "UK",
+    "total_weeks_ranked": 41,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 5
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 13,
+    "team_name": "Virginia",
+    "team_abbreviation": "UVA",
+    "total_weeks_ranked": 36,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 65,
+    "team_name": "Kansas",
+    "team_abbreviation": "KU",
+    "total_weeks_ranked": 36,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 1,
+    "weeks_in_top_10": 7
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 66,
+    "team_name": "Illinois",
+    "team_abbreviation": "ILL",
+    "total_weeks_ranked": 33,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 102,
+    "team_name": "SMU",
+    "team_abbreviation": "SMU",
+    "total_weeks_ranked": 33,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 27,
+    "team_name": "Memphis",
+    "team_abbreviation": "MEM",
+    "total_weeks_ranked": 30,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 22,
+    "team_name": "Minnesota",
+    "team_abbreviation": "MINN",
+    "total_weeks_ranked": 28,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 55,
+    "team_name": "Rutgers",
+    "team_abbreviation": "RUTG",
+    "total_weeks_ranked": 28,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 52,
+    "team_name": "Colorado",
+    "team_abbreviation": "COLO",
+    "total_weeks_ranked": 26,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 103,
+    "team_name": "Indiana",
+    "team_abbreviation": "IU",
+    "total_weeks_ranked": 23,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 12
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 105,
+    "team_name": "Coastal Carolina",
+    "team_abbreviation": "CCU",
+    "total_weeks_ranked": 23,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 110,
+    "team_name": "Tulane",
+    "team_abbreviation": "TULN",
+    "total_weeks_ranked": 22,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 90,
+    "team_name": "Duke",
+    "team_abbreviation": "DUKE",
+    "total_weeks_ranked": 21,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 42,
+    "team_name": "Navy",
+    "team_abbreviation": "NAVY",
+    "total_weeks_ranked": 20,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 60,
+    "team_name": "Hawai'i",
+    "team_abbreviation": "HAW",
+    "total_weeks_ranked": 20,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 104,
+    "team_name": "Louisiana",
+    "team_abbreviation": "UL",
+    "total_weeks_ranked": 19,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 95,
+    "team_name": "San Diego State",
+    "team_abbreviation": "SDSU",
+    "total_weeks_ranked": 18,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 44,
+    "team_name": "Northern Illinois",
+    "team_abbreviation": "NIU",
+    "total_weeks_ranked": 17,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 99,
+    "team_name": "Syracuse",
+    "team_abbreviation": "SYR",
+    "total_weeks_ranked": 17,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 24,
+    "team_name": "Purdue",
+    "team_abbreviation": "PUR",
+    "total_weeks_ranked": 16,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 91,
+    "team_name": "Marshall",
+    "team_abbreviation": "MRSH",
+    "total_weeks_ranked": 16,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 100,
+    "team_name": "Army",
+    "team_abbreviation": "ARMY",
+    "total_weeks_ranked": 16,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 106,
+    "team_name": "Liberty",
+    "team_abbreviation": "LIB",
+    "total_weeks_ranked": 15,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 23,
+    "team_name": "Maryland",
+    "team_abbreviation": "MD",
+    "total_weeks_ranked": 14,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 70,
+    "team_name": "Ball State",
+    "team_abbreviation": "BALL",
+    "total_weeks_ranked": 11,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 79,
+    "team_name": "Nevada",
+    "team_abbreviation": "NEV",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 88,
+    "team_name": "Utah State",
+    "team_abbreviation": "USU",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 96,
+    "team_name": "W Michigan",
+    "team_abbreviation": "WMU",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 98,
+    "team_name": "Appalachian State",
+    "team_abbreviation": "APP",
+    "total_weeks_ranked": 10,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 68,
+    "team_name": "East Carolina",
+    "team_abbreviation": "ECU",
+    "total_weeks_ranked": 9,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 72,
+    "team_name": "Tulsa",
+    "team_abbreviation": "TLSA",
+    "total_weeks_ranked": 9,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 86,
+    "team_name": "Toledo",
+    "team_abbreviation": "TOL",
+    "total_weeks_ranked": 9,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 108,
+    "team_name": "UTSA",
+    "team_abbreviation": "UTSA",
+    "total_weeks_ranked": 9,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 33,
+    "team_name": "Southern Mississippi",
+    "team_abbreviation": "USM",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 69,
+    "team_name": "Vanderbilt",
+    "team_abbreviation": "VAN",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 80,
+    "team_name": "Air Force",
+    "team_abbreviation": "AF",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 93,
+    "team_name": "Temple",
+    "team_abbreviation": "TEM",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 109,
+    "team_name": "James Madison",
+    "team_abbreviation": "JMU",
+    "total_weeks_ranked": 8,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 67,
+    "team_name": "Connecticut",
+    "team_abbreviation": "CONN",
+    "total_weeks_ranked": 6,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 111,
+    "team_name": "UNLV",
+    "team_abbreviation": "UNLV",
+    "total_weeks_ranked": 6,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 37,
+    "team_name": "UTEP",
+    "team_abbreviation": "UTEP",
+    "total_weeks_ranked": 5,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 84,
+    "team_name": "Louisiana Tech",
+    "team_abbreviation": "LT",
+    "total_weeks_ranked": 5,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 87,
+    "team_name": "Kent State",
+    "team_abbreviation": "KENT",
+    "total_weeks_ranked": 4,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 89,
+    "team_name": "San Jose State",
+    "team_abbreviation": "SJSU",
+    "total_weeks_ranked": 4,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 92,
+    "team_name": "Colorado State",
+    "team_abbreviation": "CSU",
+    "total_weeks_ranked": 3,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 97,
+    "team_name": "Troy",
+    "team_abbreviation": "TROY",
+    "total_weeks_ranked": 3,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 107,
+    "team_name": "Buffalo",
+    "team_abbreviation": "BUFF",
+    "total_weeks_ranked": 3,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 78,
+    "team_name": "Central Michigan",
+    "team_abbreviation": "CMU",
+    "total_weeks_ranked": 2,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 85,
+    "team_name": "Ohio",
+    "team_abbreviation": "OHIO",
+    "total_weeks_ranked": 2,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 94,
+    "team_name": "W Kentucky",
+    "team_abbreviation": "WKU",
+    "total_weeks_ranked": 2,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_pk": 39,
+    "team_name": "Bowling Green",
+    "team_abbreviation": "BGSU",
+    "total_weeks_ranked": 1,
+    "weeks_at_number_one": 0,
+    "weeks_in_top_3": 0,
+    "weeks_in_top_10": 0
+  }
+]

@@ -1,0 +1,1562 @@
+[
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "California",
+    "avg_overrated_index": 7.0,
+    "min_overrated_index": -4,
+    "max_overrated_index": 14,
+    "seasons_counted": 5
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Purdue",
+    "avg_overrated_index": 6.5,
+    "min_overrated_index": 2,
+    "max_overrated_index": 11,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Florida State",
+    "avg_overrated_index": 5.111111111111111,
+    "min_overrated_index": -15,
+    "max_overrated_index": 23,
+    "seasons_counted": 18
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Nebraska",
+    "avg_overrated_index": 4.8,
+    "min_overrated_index": -10,
+    "max_overrated_index": 14,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Miami (FL)",
+    "avg_overrated_index": 4.75,
+    "min_overrated_index": -7,
+    "max_overrated_index": 18,
+    "seasons_counted": 12
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "USC",
+    "avg_overrated_index": 4.65,
+    "min_overrated_index": -19,
+    "max_overrated_index": 25,
+    "seasons_counted": 20
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Oklahoma",
+    "avg_overrated_index": 4.428571428571429,
+    "min_overrated_index": -14,
+    "max_overrated_index": 23,
+    "seasons_counted": 21
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Texas A&M",
+    "avg_overrated_index": 4.285714285714286,
+    "min_overrated_index": -21,
+    "max_overrated_index": 20,
+    "seasons_counted": 14
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Virginia",
+    "avg_overrated_index": 4.0,
+    "min_overrated_index": 1,
+    "max_overrated_index": 7,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "North Carolina",
+    "avg_overrated_index": 3.75,
+    "min_overrated_index": -11,
+    "max_overrated_index": 16,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "LSU",
+    "avg_overrated_index": 3.5238095238095237,
+    "min_overrated_index": -19,
+    "max_overrated_index": 20,
+    "seasons_counted": 21
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Michigan",
+    "avg_overrated_index": 3.4705882352941178,
+    "min_overrated_index": -23,
+    "max_overrated_index": 22,
+    "seasons_counted": 17
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Georgia",
+    "avg_overrated_index": 3.0952380952380953,
+    "min_overrated_index": -13,
+    "max_overrated_index": 21,
+    "seasons_counted": 21
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Texas",
+    "avg_overrated_index": 2.764705882352941,
+    "min_overrated_index": -14,
+    "max_overrated_index": 21,
+    "seasons_counted": 17
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "UCLA",
+    "avg_overrated_index": 2.5714285714285716,
+    "min_overrated_index": -10,
+    "max_overrated_index": 13,
+    "seasons_counted": 7
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Florida",
+    "avg_overrated_index": 2.235294117647059,
+    "min_overrated_index": -19,
+    "max_overrated_index": 22,
+    "seasons_counted": 17
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "West Virginia",
+    "avg_overrated_index": 2.0833333333333335,
+    "min_overrated_index": -21,
+    "max_overrated_index": 16,
+    "seasons_counted": 12
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Clemson",
+    "avg_overrated_index": 1.85,
+    "min_overrated_index": -10,
+    "max_overrated_index": 17,
+    "seasons_counted": 20
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Tennessee",
+    "avg_overrated_index": 1.6666666666666667,
+    "min_overrated_index": -20,
+    "max_overrated_index": 23,
+    "seasons_counted": 12
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Wisconsin",
+    "avg_overrated_index": 1.55,
+    "min_overrated_index": -19,
+    "max_overrated_index": 22,
+    "seasons_counted": 20
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Auburn",
+    "avg_overrated_index": 1.4,
+    "min_overrated_index": -24,
+    "max_overrated_index": 20,
+    "seasons_counted": 15
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Ohio State",
+    "avg_overrated_index": 1.1428571428571428,
+    "min_overrated_index": -15,
+    "max_overrated_index": 11,
+    "seasons_counted": 21
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Virginia Tech",
+    "avg_overrated_index": 0.75,
+    "min_overrated_index": -16,
+    "max_overrated_index": 10,
+    "seasons_counted": 12
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "South Florida",
+    "avg_overrated_index": 0.6666666666666666,
+    "min_overrated_index": -7,
+    "max_overrated_index": 7,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Arkansas",
+    "avg_overrated_index": 0.625,
+    "min_overrated_index": -11,
+    "max_overrated_index": 16,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Maryland",
+    "avg_overrated_index": 0.5,
+    "min_overrated_index": -3,
+    "max_overrated_index": 4,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Notre Dame",
+    "avg_overrated_index": 0.23529411764705882,
+    "min_overrated_index": -22,
+    "max_overrated_index": 16,
+    "seasons_counted": 17
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Oregon",
+    "avg_overrated_index": 0.15,
+    "min_overrated_index": -14,
+    "max_overrated_index": 17,
+    "seasons_counted": 20
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "NC State",
+    "avg_overrated_index": 0.0,
+    "min_overrated_index": -6,
+    "max_overrated_index": 13,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Alabama",
+    "avg_overrated_index": -0.16666666666666666,
+    "min_overrated_index": -18,
+    "max_overrated_index": 12,
+    "seasons_counted": 18
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Washington",
+    "avg_overrated_index": -0.2222222222222222,
+    "min_overrated_index": -18,
+    "max_overrated_index": 13,
+    "seasons_counted": 9
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Iowa State",
+    "avg_overrated_index": -0.25,
+    "min_overrated_index": -14,
+    "max_overrated_index": 19,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "South Carolina",
+    "avg_overrated_index": -0.42857142857142855,
+    "min_overrated_index": -7,
+    "max_overrated_index": 17,
+    "seasons_counted": 7
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Iowa",
+    "avg_overrated_index": -0.5,
+    "min_overrated_index": -17,
+    "max_overrated_index": 17,
+    "seasons_counted": 14
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Kansas State",
+    "avg_overrated_index": -0.625,
+    "min_overrated_index": -12,
+    "max_overrated_index": 14,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Louisville",
+    "avg_overrated_index": -0.7,
+    "min_overrated_index": -20,
+    "max_overrated_index": 16,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Pittsburgh",
+    "avg_overrated_index": -0.7142857142857143,
+    "min_overrated_index": -13,
+    "max_overrated_index": 11,
+    "seasons_counted": 7
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Stanford",
+    "avg_overrated_index": -0.8,
+    "min_overrated_index": -22,
+    "max_overrated_index": 15,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Georgia Tech",
+    "avg_overrated_index": -0.8,
+    "min_overrated_index": -18,
+    "max_overrated_index": 10,
+    "seasons_counted": 5
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Michigan State",
+    "avg_overrated_index": -0.9230769230769231,
+    "min_overrated_index": -23,
+    "max_overrated_index": 15,
+    "seasons_counted": 13
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "San Diego State",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -1,
+    "max_overrated_index": -1,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Oklahoma State",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -19,
+    "max_overrated_index": 17,
+    "seasons_counted": 14
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Kansas",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -19,
+    "max_overrated_index": 12,
+    "seasons_counted": 5
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Buffalo",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -1,
+    "max_overrated_index": -1,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Ole Miss",
+    "avg_overrated_index": -1.2222222222222223,
+    "min_overrated_index": -15,
+    "max_overrated_index": 15,
+    "seasons_counted": 9
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Penn State",
+    "avg_overrated_index": -1.4666666666666666,
+    "min_overrated_index": -23,
+    "max_overrated_index": 19,
+    "seasons_counted": 15
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Arizona State",
+    "avg_overrated_index": -1.7,
+    "min_overrated_index": -19,
+    "max_overrated_index": 11,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "W Kentucky",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -2,
+    "max_overrated_index": -2,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Tulsa",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -2,
+    "max_overrated_index": -2,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Rutgers",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -14,
+    "max_overrated_index": 10,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Oregon State",
+    "avg_overrated_index": -2.25,
+    "min_overrated_index": -9,
+    "max_overrated_index": 8,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Vanderbilt",
+    "avg_overrated_index": -2.5,
+    "min_overrated_index": -3,
+    "max_overrated_index": -2,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Minnesota",
+    "avg_overrated_index": -2.6666666666666665,
+    "min_overrated_index": -16,
+    "max_overrated_index": 7,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Texas Tech",
+    "avg_overrated_index": -2.8333333333333335,
+    "min_overrated_index": -8,
+    "max_overrated_index": 1,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Utah",
+    "avg_overrated_index": -2.9166666666666665,
+    "min_overrated_index": -24,
+    "max_overrated_index": 14,
+    "seasons_counted": 12
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Wake Forest",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -11,
+    "max_overrated_index": 4,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "UNLV",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -3,
+    "max_overrated_index": -3,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Marshall",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -3,
+    "max_overrated_index": -3,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Fresno State",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -8,
+    "max_overrated_index": 2,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Duke",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -3,
+    "max_overrated_index": -3,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Central Michigan",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -3,
+    "max_overrated_index": -3,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Ball State",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -3,
+    "max_overrated_index": -3,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Memphis",
+    "avg_overrated_index": -3.25,
+    "min_overrated_index": -9,
+    "max_overrated_index": -1,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Arizona",
+    "avg_overrated_index": -3.25,
+    "min_overrated_index": -15,
+    "max_overrated_index": 5,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Illinois",
+    "avg_overrated_index": -3.3333333333333335,
+    "min_overrated_index": -10,
+    "max_overrated_index": 6,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "San Jose State",
+    "avg_overrated_index": -3.5,
+    "min_overrated_index": -5,
+    "max_overrated_index": -2,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Washington St",
+    "avg_overrated_index": -3.6666666666666665,
+    "min_overrated_index": -16,
+    "max_overrated_index": 3,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "TCU",
+    "avg_overrated_index": -3.75,
+    "min_overrated_index": -24,
+    "max_overrated_index": 13,
+    "seasons_counted": 16
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Northern Illinois",
+    "avg_overrated_index": -4.0,
+    "min_overrated_index": -4,
+    "max_overrated_index": -4,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Missouri",
+    "avg_overrated_index": -4.0,
+    "min_overrated_index": -22,
+    "max_overrated_index": 13,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Hawai'i",
+    "avg_overrated_index": -4.0,
+    "min_overrated_index": -4,
+    "max_overrated_index": -4,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Coastal Carolina",
+    "avg_overrated_index": -4.0,
+    "min_overrated_index": -12,
+    "max_overrated_index": 4,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Air Force",
+    "avg_overrated_index": -4.0,
+    "min_overrated_index": -4,
+    "max_overrated_index": -4,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Mississippi State",
+    "avg_overrated_index": -4.166666666666667,
+    "min_overrated_index": -15,
+    "max_overrated_index": 8,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Syracuse",
+    "avg_overrated_index": -4.333333333333333,
+    "min_overrated_index": -11,
+    "max_overrated_index": 4,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Baylor",
+    "avg_overrated_index": -4.375,
+    "min_overrated_index": -21,
+    "max_overrated_index": 16,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Houston",
+    "avg_overrated_index": -4.4,
+    "min_overrated_index": -18,
+    "max_overrated_index": 11,
+    "seasons_counted": 5
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Boise State",
+    "avg_overrated_index": -4.4375,
+    "min_overrated_index": -21,
+    "max_overrated_index": 8,
+    "seasons_counted": 16
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Liberty",
+    "avg_overrated_index": -5.0,
+    "min_overrated_index": -9,
+    "max_overrated_index": -1,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Colorado",
+    "avg_overrated_index": -5.0,
+    "min_overrated_index": -9,
+    "max_overrated_index": -1,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Utah State",
+    "avg_overrated_index": -5.333333333333333,
+    "min_overrated_index": -10,
+    "max_overrated_index": -2,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Navy",
+    "avg_overrated_index": -5.333333333333333,
+    "min_overrated_index": -8,
+    "max_overrated_index": -2,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Kentucky",
+    "avg_overrated_index": -5.333333333333333,
+    "min_overrated_index": -14,
+    "max_overrated_index": 6,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Southern Mississippi",
+    "avg_overrated_index": -6.0,
+    "min_overrated_index": -6,
+    "max_overrated_index": -6,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Army",
+    "avg_overrated_index": -6.0,
+    "min_overrated_index": -7,
+    "max_overrated_index": -5,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Northwestern",
+    "avg_overrated_index": -6.333333333333333,
+    "min_overrated_index": -16,
+    "max_overrated_index": 4,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Cincinnati",
+    "avg_overrated_index": -6.333333333333333,
+    "min_overrated_index": -18,
+    "max_overrated_index": 3,
+    "seasons_counted": 9
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "UCF",
+    "avg_overrated_index": -6.5,
+    "min_overrated_index": -20,
+    "max_overrated_index": 7,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "BYU",
+    "avg_overrated_index": -6.875,
+    "min_overrated_index": -15,
+    "max_overrated_index": 9,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Troy",
+    "avg_overrated_index": -7.0,
+    "min_overrated_index": -7,
+    "max_overrated_index": -7,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Indiana",
+    "avg_overrated_index": -7.0,
+    "min_overrated_index": -16,
+    "max_overrated_index": 9,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Appalachian State",
+    "avg_overrated_index": -7.0,
+    "min_overrated_index": -7,
+    "max_overrated_index": -7,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Tulane",
+    "avg_overrated_index": -7.5,
+    "min_overrated_index": -17,
+    "max_overrated_index": 2,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Boston College",
+    "avg_overrated_index": -7.75,
+    "min_overrated_index": -16,
+    "max_overrated_index": -4,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "SMU",
+    "avg_overrated_index": -9.0,
+    "min_overrated_index": -14,
+    "max_overrated_index": -4,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Louisiana",
+    "avg_overrated_index": -9.0,
+    "min_overrated_index": -11,
+    "max_overrated_index": -7,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "W Michigan",
+    "avg_overrated_index": -11.0,
+    "min_overrated_index": -11,
+    "max_overrated_index": -11,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AP Top 25",
+    "team_name": "Nevada",
+    "avg_overrated_index": -15.0,
+    "min_overrated_index": -15,
+    "max_overrated_index": -15,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Purdue",
+    "avg_overrated_index": 6.0,
+    "min_overrated_index": 2,
+    "max_overrated_index": 10,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "USC",
+    "avg_overrated_index": 5.611111111111111,
+    "min_overrated_index": -12,
+    "max_overrated_index": 23,
+    "seasons_counted": 18
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "California",
+    "avg_overrated_index": 5.5,
+    "min_overrated_index": -1,
+    "max_overrated_index": 14,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Nebraska",
+    "avg_overrated_index": 4.666666666666667,
+    "min_overrated_index": -8,
+    "max_overrated_index": 13,
+    "seasons_counted": 9
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Florida State",
+    "avg_overrated_index": 4.611111111111111,
+    "min_overrated_index": -16,
+    "max_overrated_index": 23,
+    "seasons_counted": 18
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Miami (FL)",
+    "avg_overrated_index": 4.583333333333333,
+    "min_overrated_index": -7,
+    "max_overrated_index": 18,
+    "seasons_counted": 12
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Oklahoma",
+    "avg_overrated_index": 4.523809523809524,
+    "min_overrated_index": -14,
+    "max_overrated_index": 23,
+    "seasons_counted": 21
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Texas A&M",
+    "avg_overrated_index": 4.285714285714286,
+    "min_overrated_index": -21,
+    "max_overrated_index": 19,
+    "seasons_counted": 14
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "North Carolina",
+    "avg_overrated_index": 4.125,
+    "min_overrated_index": -11,
+    "max_overrated_index": 17,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "LSU",
+    "avg_overrated_index": 3.5714285714285716,
+    "min_overrated_index": -17,
+    "max_overrated_index": 21,
+    "seasons_counted": 21
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Texas",
+    "avg_overrated_index": 3.526315789473684,
+    "min_overrated_index": -12,
+    "max_overrated_index": 22,
+    "seasons_counted": 19
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Michigan",
+    "avg_overrated_index": 3.3333333333333335,
+    "min_overrated_index": -23,
+    "max_overrated_index": 22,
+    "seasons_counted": 18
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Georgia",
+    "avg_overrated_index": 2.9047619047619047,
+    "min_overrated_index": -13,
+    "max_overrated_index": 21,
+    "seasons_counted": 21
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Auburn",
+    "avg_overrated_index": 2.4375,
+    "min_overrated_index": -24,
+    "max_overrated_index": 19,
+    "seasons_counted": 16
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Virginia Tech",
+    "avg_overrated_index": 2.25,
+    "min_overrated_index": -10,
+    "max_overrated_index": 9,
+    "seasons_counted": 12
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Tennessee",
+    "avg_overrated_index": 2.090909090909091,
+    "min_overrated_index": -20,
+    "max_overrated_index": 23,
+    "seasons_counted": 11
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Florida",
+    "avg_overrated_index": 1.9411764705882353,
+    "min_overrated_index": -20,
+    "max_overrated_index": 23,
+    "seasons_counted": 17
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Wisconsin",
+    "avg_overrated_index": 1.35,
+    "min_overrated_index": -21,
+    "max_overrated_index": 19,
+    "seasons_counted": 20
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Clemson",
+    "avg_overrated_index": 1.3157894736842106,
+    "min_overrated_index": -10,
+    "max_overrated_index": 17,
+    "seasons_counted": 19
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Ohio State",
+    "avg_overrated_index": 1.3,
+    "min_overrated_index": -6,
+    "max_overrated_index": 10,
+    "seasons_counted": 20
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Notre Dame",
+    "avg_overrated_index": 1.0588235294117647,
+    "min_overrated_index": -21,
+    "max_overrated_index": 17,
+    "seasons_counted": 17
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Virginia",
+    "avg_overrated_index": 1.0,
+    "min_overrated_index": -1,
+    "max_overrated_index": 3,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Iowa",
+    "avg_overrated_index": 0.5384615384615384,
+    "min_overrated_index": -16,
+    "max_overrated_index": 16,
+    "seasons_counted": 13
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Louisville",
+    "avg_overrated_index": 0.4444444444444444,
+    "min_overrated_index": -13,
+    "max_overrated_index": 15,
+    "seasons_counted": 9
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "UCLA",
+    "avg_overrated_index": 0.42857142857142855,
+    "min_overrated_index": -13,
+    "max_overrated_index": 12,
+    "seasons_counted": 7
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "West Virginia",
+    "avg_overrated_index": 0.3076923076923077,
+    "min_overrated_index": -20,
+    "max_overrated_index": 18,
+    "seasons_counted": 13
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "NC State",
+    "avg_overrated_index": 0.16666666666666666,
+    "min_overrated_index": -7,
+    "max_overrated_index": 13,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Oregon",
+    "avg_overrated_index": 0.15789473684210525,
+    "min_overrated_index": -14,
+    "max_overrated_index": 17,
+    "seasons_counted": 19
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Alabama",
+    "avg_overrated_index": 0.10526315789473684,
+    "min_overrated_index": -20,
+    "max_overrated_index": 12,
+    "seasons_counted": 19
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Arkansas",
+    "avg_overrated_index": -0.125,
+    "min_overrated_index": -10,
+    "max_overrated_index": 16,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Stanford",
+    "avg_overrated_index": -0.4,
+    "min_overrated_index": -22,
+    "max_overrated_index": 15,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Maryland",
+    "avg_overrated_index": -0.5,
+    "min_overrated_index": -2,
+    "max_overrated_index": 1,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "South Florida",
+    "avg_overrated_index": -0.6666666666666666,
+    "min_overrated_index": -7,
+    "max_overrated_index": 5,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Washington",
+    "avg_overrated_index": -0.75,
+    "min_overrated_index": -18,
+    "max_overrated_index": 14,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "South Carolina",
+    "avg_overrated_index": -0.8571428571428571,
+    "min_overrated_index": -7,
+    "max_overrated_index": 17,
+    "seasons_counted": 7
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Tulsa",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -1,
+    "max_overrated_index": -1,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "San Diego State",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -1,
+    "max_overrated_index": -1,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Oklahoma State",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -16,
+    "max_overrated_index": 15,
+    "seasons_counted": 15
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Buffalo",
+    "avg_overrated_index": -1.0,
+    "min_overrated_index": -1,
+    "max_overrated_index": -1,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Penn State",
+    "avg_overrated_index": -1.0625,
+    "min_overrated_index": -23,
+    "max_overrated_index": 19,
+    "seasons_counted": 16
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Ole Miss",
+    "avg_overrated_index": -1.1111111111111112,
+    "min_overrated_index": -14,
+    "max_overrated_index": 14,
+    "seasons_counted": 9
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Michigan State",
+    "avg_overrated_index": -1.1538461538461537,
+    "min_overrated_index": -23,
+    "max_overrated_index": 15,
+    "seasons_counted": 13
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Texas Tech",
+    "avg_overrated_index": -1.1666666666666667,
+    "min_overrated_index": -3,
+    "max_overrated_index": 2,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Pittsburgh",
+    "avg_overrated_index": -1.2,
+    "min_overrated_index": -13,
+    "max_overrated_index": 11,
+    "seasons_counted": 5
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Georgia Tech",
+    "avg_overrated_index": -1.4,
+    "min_overrated_index": -19,
+    "max_overrated_index": 9,
+    "seasons_counted": 5
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Oregon State",
+    "avg_overrated_index": -1.625,
+    "min_overrated_index": -9,
+    "max_overrated_index": 8,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Utah",
+    "avg_overrated_index": -1.7142857142857142,
+    "min_overrated_index": -22,
+    "max_overrated_index": 13,
+    "seasons_counted": 14
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Kansas",
+    "avg_overrated_index": -1.75,
+    "min_overrated_index": -19,
+    "max_overrated_index": 13,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Iowa State",
+    "avg_overrated_index": -1.75,
+    "min_overrated_index": -16,
+    "max_overrated_index": 18,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "UNLV",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -2,
+    "max_overrated_index": -2,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Rutgers",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -14,
+    "max_overrated_index": 10,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Northern Illinois",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -2,
+    "max_overrated_index": -2,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Central Michigan",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -2,
+    "max_overrated_index": -2,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Arizona State",
+    "avg_overrated_index": -2.0,
+    "min_overrated_index": -19,
+    "max_overrated_index": 10,
+    "seasons_counted": 7
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Kansas State",
+    "avg_overrated_index": -2.25,
+    "min_overrated_index": -12,
+    "max_overrated_index": 9,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Minnesota",
+    "avg_overrated_index": -2.6666666666666665,
+    "min_overrated_index": -16,
+    "max_overrated_index": 8,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Wake Forest",
+    "avg_overrated_index": -2.75,
+    "min_overrated_index": -12,
+    "max_overrated_index": 7,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Fresno State",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -8,
+    "max_overrated_index": 1,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Ball State",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -3,
+    "max_overrated_index": -3,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Air Force",
+    "avg_overrated_index": -3.0,
+    "min_overrated_index": -3,
+    "max_overrated_index": -3,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "San Jose State",
+    "avg_overrated_index": -3.5,
+    "min_overrated_index": -5,
+    "max_overrated_index": -2,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Syracuse",
+    "avg_overrated_index": -3.6666666666666665,
+    "min_overrated_index": -11,
+    "max_overrated_index": 4,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Illinois",
+    "avg_overrated_index": -3.6666666666666665,
+    "min_overrated_index": -10,
+    "max_overrated_index": 7,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Memphis",
+    "avg_overrated_index": -3.75,
+    "min_overrated_index": -9,
+    "max_overrated_index": -1,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Arizona",
+    "avg_overrated_index": -3.75,
+    "min_overrated_index": -15,
+    "max_overrated_index": 5,
+    "seasons_counted": 4
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Mississippi State",
+    "avg_overrated_index": -3.8333333333333335,
+    "min_overrated_index": -14,
+    "max_overrated_index": 7,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "TCU",
+    "avg_overrated_index": -3.875,
+    "min_overrated_index": -24,
+    "max_overrated_index": 12,
+    "seasons_counted": 16
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Marshall",
+    "avg_overrated_index": -4.0,
+    "min_overrated_index": -4,
+    "max_overrated_index": -4,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Duke",
+    "avg_overrated_index": -4.0,
+    "min_overrated_index": -4,
+    "max_overrated_index": -4,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Baylor",
+    "avg_overrated_index": -4.125,
+    "min_overrated_index": -20,
+    "max_overrated_index": 16,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Boise State",
+    "avg_overrated_index": -4.4,
+    "min_overrated_index": -20,
+    "max_overrated_index": 7,
+    "seasons_counted": 15
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Vanderbilt",
+    "avg_overrated_index": -4.5,
+    "min_overrated_index": -6,
+    "max_overrated_index": -3,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Hawai'i",
+    "avg_overrated_index": -4.5,
+    "min_overrated_index": -7,
+    "max_overrated_index": -2,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Houston",
+    "avg_overrated_index": -5.0,
+    "min_overrated_index": -18,
+    "max_overrated_index": 13,
+    "seasons_counted": 5
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Coastal Carolina",
+    "avg_overrated_index": -5.0,
+    "min_overrated_index": -12,
+    "max_overrated_index": 2,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Utah State",
+    "avg_overrated_index": -5.333333333333333,
+    "min_overrated_index": -9,
+    "max_overrated_index": -2,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Washington St",
+    "avg_overrated_index": -5.5,
+    "min_overrated_index": -16,
+    "max_overrated_index": 5,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Army",
+    "avg_overrated_index": -5.5,
+    "min_overrated_index": -6,
+    "max_overrated_index": -5,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Missouri",
+    "avg_overrated_index": -5.7,
+    "min_overrated_index": -21,
+    "max_overrated_index": 9,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Northwestern",
+    "avg_overrated_index": -5.857142857142857,
+    "min_overrated_index": -16,
+    "max_overrated_index": 4,
+    "seasons_counted": 7
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Troy",
+    "avg_overrated_index": -6.0,
+    "min_overrated_index": -6,
+    "max_overrated_index": -6,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Colorado",
+    "avg_overrated_index": -6.0,
+    "min_overrated_index": -11,
+    "max_overrated_index": -1,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "UCF",
+    "avg_overrated_index": -6.333333333333333,
+    "min_overrated_index": -19,
+    "max_overrated_index": 7,
+    "seasons_counted": 6
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Cincinnati",
+    "avg_overrated_index": -6.5,
+    "min_overrated_index": -17,
+    "max_overrated_index": 4,
+    "seasons_counted": 10
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Indiana",
+    "avg_overrated_index": -6.666666666666667,
+    "min_overrated_index": -16,
+    "max_overrated_index": 9,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Tulane",
+    "avg_overrated_index": -7.0,
+    "min_overrated_index": -17,
+    "max_overrated_index": 3,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Southern Mississippi",
+    "avg_overrated_index": -7.0,
+    "min_overrated_index": -7,
+    "max_overrated_index": -7,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Navy",
+    "avg_overrated_index": -7.0,
+    "min_overrated_index": -8,
+    "max_overrated_index": -6,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Kentucky",
+    "avg_overrated_index": -7.0,
+    "min_overrated_index": -15,
+    "max_overrated_index": 5,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Louisiana",
+    "avg_overrated_index": -7.5,
+    "min_overrated_index": -10,
+    "max_overrated_index": -5,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "BYU",
+    "avg_overrated_index": -7.875,
+    "min_overrated_index": -15,
+    "max_overrated_index": 4,
+    "seasons_counted": 8
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "W Michigan",
+    "avg_overrated_index": -8.0,
+    "min_overrated_index": -8,
+    "max_overrated_index": -8,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Liberty",
+    "avg_overrated_index": -8.0,
+    "min_overrated_index": -8,
+    "max_overrated_index": -8,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Appalachian State",
+    "avg_overrated_index": -8.0,
+    "min_overrated_index": -8,
+    "max_overrated_index": -8,
+    "seasons_counted": 1
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "SMU",
+    "avg_overrated_index": -8.5,
+    "min_overrated_index": -15,
+    "max_overrated_index": -2,
+    "seasons_counted": 2
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Boston College",
+    "avg_overrated_index": -8.666666666666666,
+    "min_overrated_index": -15,
+    "max_overrated_index": -5,
+    "seasons_counted": 3
+  },
+  {
+    "poll_name": "AFCA Coaches Poll",
+    "team_name": "Nevada",
+    "avg_overrated_index": -13.0,
+    "min_overrated_index": -13,
+    "max_overrated_index": -13,
+    "seasons_counted": 1
+  }
+]
