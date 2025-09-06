@@ -1,8 +1,10 @@
-name: Deploy static site from frontend
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"]   # adjust if your default branch is different
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -29,6 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # Only upload frontend folder
           path: './frontend'
 
       - name: Deploy to GitHub Pages
